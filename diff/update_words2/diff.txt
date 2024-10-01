@@ -1,5 +1,5 @@
 --- diff/update_words2/i_am_cat.txt     2024-09-24 11:51:47
-+++ diff/update_words2/i_am_cat.update.txt      2024-09-24 11:52:07
++++ diff/update_words2/i_am_cat.update.txt      2024-09-24 11:57:35
 @@ -1,7 +1,7 @@
  吾輩わがはいは猫である。名前はまだ無い。
  
