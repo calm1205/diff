@@ -8,7 +8,6 @@ const parseDiff = (lines) => {
     if (line.startsWith("-")) {
       // '-' 行は元のファイルにのみ存在する
       originalFile.push(line.slice(1).trim()); // '-' を取り除いて、元のファイルに追加
-      modifiedFile.push(""); // 変更後のファイルには空行を入れる
     } else if (line.startsWith("+")) {
       // '+' 行は変更後のファイルにのみ存在する
       originalFile.push(""); // 元のファイルには空行を入れる
