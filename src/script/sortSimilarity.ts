@@ -23,15 +23,25 @@ export const sortSimilarity = (targetLines: TargetLine[]) => {
     const reverseType = type === "+" ? "-" : "+"
 
     if (isNaN(paringLine.pareLineIndex)) {
-      sortedLines.push(type + paringLine.targetLine.line)
-      sortedLines.push(reverseType + "")
+      // 必ず - を先に追加
+      type === "-"
+        ? sortedLines.push(paringLine.targetLine.line)
+        : sortedLines.push(reverseType + "")
+      type === "+"
+        ? sortedLines.push(paringLine.targetLine.line)
+        : sortedLines.push(reverseType + "")
     } else {
       const pareLine = looseLines.find(
         ({ index }) => index === paringLine.pareLineIndex,
       )!.line
 
-      sortedLines.push(type + paringLine.targetLine.line)
-      sortedLines.push(reverseType + pareLine)
+      // 必ず - を先に追加
+      type === "-"
+        ? sortedLines.push(paringLine.targetLine.line)
+        : sortedLines.push(pareLine)
+      type === "+"
+        ? sortedLines.push(paringLine.targetLine.line)
+        : sortedLines.push(pareLine)
     }
   })
 

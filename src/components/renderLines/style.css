@@ -9,3 +9,17 @@
   text-align: center;
   width: 20px;
 }
+.original .highlight {
+  color: white;
+  background-color: red;
+}
+.modified .highlight {
+  color: white;
+  background-color: green;
+}
+.render-lines-highlight-add {
+  background-color: lightgreen;
+}
+.render-lines-highlight-delete {
+  background-color: lightcoral;
+}
