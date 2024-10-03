@@ -1,0 +1,11 @@
+.render-lines-paragraph {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.render-lines-index {
+  font-size: 10px;
+  text-align: center;
+  width: 20px;
+}

@@ -2,7 +2,7 @@ interface FreqMap {
   [key: string]: number
 }
 
-function termFrequency(str: string) {
+const termFrequency = (str: string) => {
   const words = str.split("")
   const freqMap: FreqMap = {}
   words.forEach((word) => {
@@ -11,7 +11,9 @@ function termFrequency(str: string) {
   return freqMap
 }
 
-function cosineSimilarity(freqMap1: FreqMap, freqMap2: FreqMap) {
+export const cosineSimilarity = (str1: string, str2: string) => {
+  const freqMap1 = termFrequency(str1)
+  const freqMap2 = termFrequency(str2)
   const allWords = new Set([...Object.keys(freqMap1), ...Object.keys(freqMap2)])
   let dotProduct = 0
   let magnitude1 = 0
@@ -27,13 +29,3 @@ function cosineSimilarity(freqMap1: FreqMap, freqMap2: FreqMap) {
 
   return dotProduct / (Math.sqrt(magnitude1) * Math.sqrt(magnitude2))
 }
-
-const str1 = "吾輩は猫である"
-const str2 = "吾輩は人間である"
-// const str2 = "どこで生れたかとんと見当けんとうがつかぬ。";
-
-const freqMap1 = termFrequency(str1)
-const freqMap2 = termFrequency(str2)
-
-const similarity = cosineSimilarity(freqMap1, freqMap2)
-console.log("Cosine Similarity:", similarity)
