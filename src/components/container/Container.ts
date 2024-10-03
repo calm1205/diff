@@ -1,4 +1,5 @@
-import { unifiedFormat } from "../../fixtures/unified-format"
+// import { unifiedFormat } from "../../fixtures/unified-format"
+import { unifiedFormatLicense } from "../../fixtures/unified-format_license"
 import { alignmentLine } from "../../script/alignmentLine"
 import { highlightLines } from "../../script/highlightLines"
 import { splitUnifiedFormat } from "../../script/splitUnifiedFormat"
@@ -14,7 +15,8 @@ export const setupContainer = (element: HTMLElement) => {
     </main>
   `
 
-  const trimmed = trimUnifiedFormat(unifiedFormat)
+  // const trimmed = trimUnifiedFormat(unifiedFormat)
+  const trimmed = trimUnifiedFormat(unifiedFormatLicense)
   const alignmentLines = alignmentLine(trimmed)
   const { originalLines, modifiedLines } = splitUnifiedFormat(alignmentLines)
   const { hOriginalLines, hModifiedLines } = highlightLines(

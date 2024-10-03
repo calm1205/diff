@@ -10,5 +10,5 @@ export const trimUnifiedFormat = (unifiedFormat: string) => {
   const lines = removeEndLine.split(breakLineRegex)
 
   // 先頭4行を削除
-  return lines.slice(4)
+  return lines.slice(3)
 }
