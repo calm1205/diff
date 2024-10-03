@@ -1,6 +1,7 @@
-import { lines } from "./diff.dummy.js"
-
-const parseDiff = (lines: string[]) => {
+/**
+ * unified diffをoriginalFileとmodifiedFileに分割
+ */
+export const splitUnifiedFormat = (lines: string[]) => {
   const originalFile: string[] = []
   const modifiedFile: string[] = []
 
@@ -34,5 +35,3 @@ const parseDiff = (lines: string[]) => {
 
   return { originalFile, modifiedFile }
 }
-
-console.log(parseDiff(lines))
