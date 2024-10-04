@@ -11,8 +11,12 @@ export const sortSimilarity = (targetLines: TargetLine[]) => {
 
   const paringLines = getParingLines(tightLines, looseLines)
 
-  // scoreが最も低いものはpareLineが無いものとする
-  paringLines.sort((a, b) => b.score - a.score).at(-1)!.pareLineIndex = NaN
+  // scoreが最も低い（0以外）ものはpareLineが無いものとする
+  const lowestScoreLineIndex = paringLines
+    .sort((a, b) => a.score - b.score)
+    .findIndex(({ score }) => score !== 0)!
+  paringLines[lowestScoreLineIndex].pareLineIndex = NaN
+
   const sortedIndexLines = paringLines.sort(
     (a, b) => a.targetLine.index - b.targetLine.index,
   )
@@ -31,9 +35,9 @@ export const sortSimilarity = (targetLines: TargetLine[]) => {
         ? sortedLines.push(paringLine.targetLine.line)
         : sortedLines.push(reverseType)
     } else {
-      const pareLine = looseLines.find(
-        ({ index }) => index === paringLine.pareLineIndex,
-      )!.line
+      const pareLine =
+        looseLines.find(({ index }) => index === paringLine.pareLineIndex)
+          ?.line ?? reverseType
 
       // 必ず - を先に追加
       type === "-"

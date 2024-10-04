@@ -22,16 +22,16 @@ export const getParingLines = (
   baseLines: TargetLine[],
   targetLines: TargetLine[],
 ): ParingLine[] =>
-  baseLines.map((targetLine) => {
+  baseLines.map((baseLine) => {
     let maxScore = 0
     let pareLineIndex = 0
-    targetLines.forEach((looseLine) => {
-      const score = cosineSimilarity(targetLine.line, looseLine.line)
+    targetLines.forEach((targetLine) => {
+      const score = cosineSimilarity(baseLine.line, targetLine.line)
       if (score > maxScore) {
         maxScore = score
-        pareLineIndex = looseLine.index
+        pareLineIndex = targetLine.index
       }
     })
 
-    return { score: maxScore, pareLineIndex, targetLine: targetLine }
+    return { score: maxScore, pareLineIndex, targetLine: baseLine }
   })
