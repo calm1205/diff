@@ -1,9 +1,4 @@
-// import { unifiedFormat } from "../../fixtures/unified-format"
-import { unifiedFormatLicense } from "../../fixtures/unified-format_license"
-import { alignmentLine } from "../../script/alignmentLine"
-import { getHighlightLines } from "../../script/highlightLines"
-import { splitUnifiedFormat } from "../../script/splitUnifiedFormat"
-import { trimUnifiedFormat } from "../../script/trimUnifiedFormat"
+import { getDiffLines } from "../../script/unified-format"
 import { RenderLines } from "../renderLines/RenderLines"
 import "./style.css"
 
@@ -13,15 +8,7 @@ export const setupContainer = (element: HTMLElement) => {
     </main>
   `
 
-  // const trimmed = trimUnifiedFormat(unifiedFormat)
-  const trimmed = trimUnifiedFormat(unifiedFormatLicense)
-  const alignmentLines = alignmentLine(trimmed, true) // アラインメント一致
-  // const alignmentLines = alignmentLine(trimmed, false) // アラインメント不一致
-  const splitLines = splitUnifiedFormat(alignmentLines)
-  const highlightLines = getHighlightLines(
-    splitLines.originalLines,
-    splitLines.modifiedLines,
-  )
+  const highlightLines = getDiffLines()
 
   const containerElement =
     element.querySelector<HTMLDivElement>(".container-main")!
