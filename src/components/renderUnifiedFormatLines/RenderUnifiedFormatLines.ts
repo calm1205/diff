@@ -6,7 +6,7 @@ const classHighlight = (line: string) => {
   return ""
 }
 
-export const RenderLines = (
+export const RenderUnifiedFormatLines = (
   element: HTMLElement,
   highlightLines: {
     originalLines: string[]

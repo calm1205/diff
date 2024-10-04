@@ -1,5 +1,7 @@
-import { getDiffLines } from "../../script/unified-format"
-import { RenderLines } from "../renderLines/RenderLines"
+// import { getDiffLines } from "../../script/unified-format"
+// import { RenderUnifiedFormatLines } from "../renderUnifiedFormatLines/RenderUnifiedFormatLines"
+import { splitLinesGroup } from "../../script/unified-word-diff"
+import { RenderWordDiffLines } from "../renderWordDiffLines/RenderWordDiffLines"
 import "./style.css"
 
 export const setupContainer = (element: HTMLElement) => {
@@ -8,10 +10,9 @@ export const setupContainer = (element: HTMLElement) => {
     </main>
   `
 
-  const highlightLines = getDiffLines()
-
   const containerElement =
     element.querySelector<HTMLDivElement>(".container-main")!
-  // RenderLines(containerElement, splitLines) // 通常の表示
-  RenderLines(containerElement, highlightLines) // 単語ハイライト表示
+
+  // RenderUnifiedFormatLines(containerElement, getDiffLines())
+  RenderWordDiffLines(containerElement, splitLinesGroup)
 }
