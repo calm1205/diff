@@ -40,13 +40,17 @@ export const alignmentLine = (lines: string[]) => {
           const sortedLines = sortSimilarity(targetLineGroups)
           alignedLines.push(...sortedLines)
           alignedLines.push(line)
-        } else if (deletionCount === 1 && additionCount === 0) {
-          alignedLines.push(...targetLineGroups.map(({ line }) => line))
-          alignedLines.push("+")
-          alignedLines.push(line)
         } else if (additionCount > deletionCount) {
           alignedLines.push(...targetLineGroups.map(({ line }) => line))
-          alignedLines.push("-")
+          Array(additionCount - deletionCount)
+            .fill(null)
+            .map(() => alignedLines.push("-"))
+          alignedLines.push(line)
+        } else if (deletionCount > additionCount) {
+          alignedLines.push(...targetLineGroups.map(({ line }) => line))
+          Array(deletionCount - additionCount)
+            .fill(null)
+            .map(() => alignedLines.push("+"))
           alignedLines.push(line)
         } else {
           alignedLines.push(...targetLineGroups.map(({ line }) => line))

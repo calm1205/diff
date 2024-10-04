@@ -1,6 +1,12 @@
-.render-lines-paragraph {
+.render-lines-wrap {
   display: flex;
-  align-items: center;
+  gap: 20px;
+}
+
+.render-lines-paragraph {
+  flex: 1;
+  display: flex;
+  align-items: top;
   gap: 5px;
 }
 
@@ -10,16 +16,16 @@
   width: 20px;
 }
 .original .highlight {
-  color: white;
-  background-color: red;
+  background-color: rgb(255 175 184);
 }
 .modified .highlight {
-  color: white;
-  background-color: green;
+  background-color: rgb(155 239 184);
 }
 .render-lines-highlight-add {
-  background-color: lightgreen;
+  width: 100%;
+  background-color: rgb(224 255 235);
 }
 .render-lines-highlight-delete {
-  background-color: lightcoral;
+  width: 100%;
+  background-color: rgb(255 235 238);
 }

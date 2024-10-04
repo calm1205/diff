@@ -26,10 +26,10 @@ export const sortSimilarity = (targetLines: TargetLine[]) => {
       // 必ず - を先に追加
       type === "-"
         ? sortedLines.push(paringLine.targetLine.line)
-        : sortedLines.push(reverseType + "")
+        : sortedLines.push(reverseType)
       type === "+"
         ? sortedLines.push(paringLine.targetLine.line)
-        : sortedLines.push(reverseType + "")
+        : sortedLines.push(reverseType)
     } else {
       const pareLine = looseLines.find(
         ({ index }) => index === paringLine.pareLineIndex,
