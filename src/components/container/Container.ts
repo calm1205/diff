@@ -15,11 +15,16 @@ export const setupContainer = (element: HTMLElement) => {
 
   // const trimmed = trimUnifiedFormat(unifiedFormat)
   const trimmed = trimUnifiedFormat(unifiedFormatLicense)
-  const alignmentLines = alignmentLine(trimmed)
-  const { originalLines, modifiedLines } = splitUnifiedFormat(alignmentLines)
-  const highlightLines = getHighlightLines(originalLines, modifiedLines)
+  const alignmentLines = alignmentLine(trimmed, true) // アラインメント一致
+  // const alignmentLines = alignmentLine(trimmed, false) // アラインメント不一致
+  const splitLines = splitUnifiedFormat(alignmentLines)
+  const highlightLines = getHighlightLines(
+    splitLines.originalLines,
+    splitLines.modifiedLines,
+  )
 
   const containerElement =
     element.querySelector<HTMLDivElement>(".container-main")!
-  RenderLines(containerElement, highlightLines)
+  // RenderLines(containerElement, splitLines) // 通常の表示
+  RenderLines(containerElement, highlightLines) // 単語ハイライト表示
 }

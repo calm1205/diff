@@ -9,24 +9,24 @@ const classHighlight = (line: string) => {
 export const RenderLines = (
   element: HTMLElement,
   highlightLines: {
-    hOriginalLines: string[]
-    hModifiedLines: string[]
+    originalLines: string[]
+    modifiedLines: string[]
   },
 ) => {
-  element.innerHTML = highlightLines.hOriginalLines
+  element.innerHTML = highlightLines.originalLines
     .map(
       (_, index) => `
       <div class="render-lines-wrap">
         <p class="render-lines-paragraph original">
           <span class="render-lines-index">${index}</span>
-          <span class="${classHighlight(highlightLines.hOriginalLines[index])}">
-            ${highlightLines.hOriginalLines[index] || "&nbsp;"}
+          <span class="${classHighlight(highlightLines.originalLines[index])}">
+            ${highlightLines.originalLines[index] || "&nbsp;"}
           </span>
         </p>
         <p class="render-lines-paragraph modified">
           <span class="render-lines-index">${index}</span>
-          <span class="${classHighlight(highlightLines.hModifiedLines[index])}">
-            ${highlightLines.hModifiedLines[index] || "&nbsp;"}
+          <span class="${classHighlight(highlightLines.modifiedLines[index])}">
+            ${highlightLines.modifiedLines[index] || "&nbsp;"}
           </span>
         </p>
       </div>

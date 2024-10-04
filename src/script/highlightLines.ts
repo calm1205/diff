@@ -29,7 +29,7 @@ export const getHighlightLines = (
     }
   })
 
-  return { hOriginalLines, hModifiedLines }
+  return { originalLines: hOriginalLines, modifiedLines: hModifiedLines }
 }
 
 const findCommonParts = (base: string, target: string) => {
