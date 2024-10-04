@@ -7,7 +7,7 @@ function hasModifiedWord(line: string) {
 function replaceAddition(line: string) {
   return line
     .replaceAll(/\{\+/g, "<span class='highlight'>")
-    .replaceAll(/\+}/g, "</span>")
+    .replaceAll(/\+\}/g, "</span>")
 }
 function replaceDeletion(line: string) {
   return line

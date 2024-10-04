@@ -10,8 +10,8 @@ export const getSplitLineGroups = (lines: string[]) => {
       originalLines.push(line)
       modifiedLines.push("{++}")
     } else if (isModified(line)) {
-      originalLines.push(removeAddition(line))
-      modifiedLines.push(removeDeletion(line))
+      originalLines.push("[--]" + removeAddition(line))
+      modifiedLines.push("{++}" + removeDeletion(line))
     } else {
       originalLines.push(line)
       modifiedLines.push(line)
