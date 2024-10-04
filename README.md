@@ -1,13 +1,13 @@
 # diff
 
 ```
-$ diff -u file1 file2
+$ git diff --unified=9999
 ```
 
 or
 
 ```
-$ git diff --unified=9999
+$ git diff --word-diff-regex='[^[:space:]]' --unified=9999
 ```
 
 の値を parse する。
