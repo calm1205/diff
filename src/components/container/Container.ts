@@ -1,5 +1,5 @@
-import { getDiffLines } from "../../script/unified-format"
-import { RenderUnifiedFormatLines } from "../renderUnifiedFormatLines/RenderUnifiedFormatLines"
+// import { getDiffLines } from "../../script/unified-format"
+// import { RenderUnifiedFormatLines } from "../renderUnifiedFormatLines/RenderUnifiedFormatLines"
 import { splitLinesGroup } from "../../script/unified-word-diff"
 import { RenderWordDiffLines } from "../renderWordDiffLines/RenderWordDiffLines"
 import "./style.css"
