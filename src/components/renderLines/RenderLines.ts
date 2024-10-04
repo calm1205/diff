@@ -1,10 +1,8 @@
 import "./style.css"
 
 const classHighlight = (line: string) => {
-  if (line.includes(`<span class="highlight">`)) {
-    if (line.includes(`+`)) return "render-lines-highlight-add"
-    if (line.includes(`-`)) return "render-lines-highlight-delete"
-  }
+  if (line.includes(`+`)) return "render-lines-highlight-add"
+  if (line.includes(`-`)) return "render-lines-highlight-delete"
   return ""
 }
 

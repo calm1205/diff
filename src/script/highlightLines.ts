@@ -73,12 +73,7 @@ const highlightDifferences = (base: string, common: string): string => {
     if (!commonWord) return
     const hitIndex = base.indexOf(commonWord)
     if (hitIndex !== -1) {
-      const diffWord = base.slice(startIndex, hitIndex)
-      const isBlank = /\s/.test(diffWord)
-
-      result += isBlank
-        ? diffWord + commonWord
-        : `<span class="highlight">${diffWord}</span>${commonWord}`
+      result += `<span class="highlight">${base.slice(startIndex, hitIndex)}</span>${commonWord}`
       startIndex = hitIndex + commonWord.length
     }
   })
