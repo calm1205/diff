@@ -1,11 +1,6 @@
 import "./style.css"
-import { setupContainer } from "./components/container/Container"
+import { createApp } from "vue"
+import App from "@/components/App.vue"
 
-document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <main>
-    <h1>diff</h1>
-    <div id="container"></div>
-  </main>
-`
-
-setupContainer(document.querySelector<HTMLElement>("#container")!)
+const app = createApp(App)
+app.mount("#app")
