@@ -17,8 +17,8 @@ function replaceDeletion(line: string) {
     .replaceAll(/-\]/g, "</span>")
 }
 
-// const { originalLines, modifiedLines } = splitLinesGroup
-const { originalLines, modifiedLines } = highlightLines
+const { originalLines, modifiedLines } = splitLinesGroup
+// const { originalLines, modifiedLines } = highlightLines
 </script>
 
 <template>
