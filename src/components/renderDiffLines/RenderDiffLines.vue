@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { splitLinesGroup } from "@/script/unified-word-diff"
-import { highlightLines } from "@/script/unified-format"
 
 const hasModifiedWord = (line: string) => {
   if (line.includes(`{+`) || line.includes(`[-`)) return "hasChange"
@@ -18,11 +17,10 @@ function replaceDeletion(line: string) {
 }
 
 const { originalLines, modifiedLines } = splitLinesGroup
-// const { originalLines, modifiedLines } = highlightLines
 </script>
 
 <template>
-  <div v-for="(line, index) of originalLines" class="pare-lines">
+  <div v-for="(_, index) of originalLines" class="pare-lines">
     <p class="line original">
       <span class="index">{{ index }}</span>
       <span
