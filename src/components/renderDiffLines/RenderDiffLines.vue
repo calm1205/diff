@@ -1,19 +1,11 @@
 <script setup lang="ts">
 import { splitLinesGroup } from "@/src/script/unified-word-diff"
+import { replaceAddition } from "./replaceAddition"
+import { replaceDeletion } from "./replaceDeletion"
 
 const hasModifiedWord = (line: string) => {
   if (line.includes(`{+`) || line.includes(`[-`)) return "hasChange"
   return ""
-}
-function replaceAddition(line: string) {
-  return line
-    .replaceAll(/\{\+/g, "<span class='highlight'>")
-    .replaceAll(/\+\}/g, "</span>")
-}
-function replaceDeletion(line: string) {
-  return line
-    .replaceAll(/\[-/g, "<span class='highlight'>")
-    .replaceAll(/-\]/g, "</span>")
 }
 
 const { originalLines, modifiedLines } = splitLinesGroup

@@ -1,4 +1,4 @@
-import { unifiedFormatLicense } from "../../fixtures/unified-format_license"
+import { unifiedFormatLicense } from "../../../fixtures/unified-format_license"
 import { alignmentLine } from "./alignmentLine"
 import { getHighlightLines } from "./highlightLines"
 import { splitUnifiedFormat } from "./splitUnifiedFormat"
