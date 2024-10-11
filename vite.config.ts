@@ -9,7 +9,7 @@ export default defineConfig({
     alias: {
       "@": path.resolve(
         path.dirname(fileURLToPath(new URL(import.meta.url))),
-        "./src",
+        "./",
       ),
     },
   },
