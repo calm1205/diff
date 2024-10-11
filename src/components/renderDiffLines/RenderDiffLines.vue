@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { splitLinesGroup } from "@/script/unified-word-diff"
+import { splitLinesGroup } from "@/src/script/unified-word-diff"
 
 const hasModifiedWord = (line: string) => {
   if (line.includes(`{+`) || line.includes(`[-`)) return "hasChange"
