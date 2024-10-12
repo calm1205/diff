@@ -1,0 +1,2942 @@
+{
+  "id": 2326,
+  "tenant_id": "local-1",
+  "normalized_file_type": "pdf",
+  "file_name_label": null,
+  "model_version": {
+    "language": "/app/models/language_detection_fasttext/lid.176.bin",
+    "title": "/app/models/20220318_crfentitle_model.pkl",
+    "contract": "",
+    "document_type": [],
+    "clause": { "first": "/app/models/20230809_bert_en_chunker.pkl" },
+    "clause_tag_annotation_type": [],
+    "coc_annotation_type": [],
+    "annotation": [
+      { "effective_date": "/app/models/20220329_xgbeneffdate_model.bin" },
+      { "execution_date": "/app/models/20220314_en_execution_date_distilbert" },
+      { "contract_term": "/app/models/20220602_xgbencontractterm_model.bin" },
+      { "party": "/app/models/20230517_en_party_debertav3" }
+    ]
+  },
+  "language": "en",
+  "language_for_search": "en",
+  "title_source_text": null,
+  "title_description": null,
+  "content": {
+    "pages": [
+      {
+        "items": [
+          {
+            "text": "AMENDED AND RESTATED",
+            "bbox": [
+              [668.7613807448909, 110.5493004886905],
+              [980.4220185047244, 109.7475080381123],
+              [980.4028345221664, 137.14750132232325],
+              [668.7421967623327, 137.94929377290146]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "ARTICLES OF INCORPORATION",
+            "bbox": [
+              [639.2808775508038, 168.38867402803146],
+              [1011.8607862307808, 168.6495341821003],
+              [1011.8416022482228, 196.04952746631147],
+              [639.2609794199899, 196.80866706223878]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "OF",
+            "bbox": [
+              [806.7381976445109, 229.40593344726267],
+              [844.298188438488, 229.43223090656488],
+              [844.2832613396507, 250.75222568099468],
+              [807.7425561474141, 251.74664211994457]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "MALEBRANCHE GP INC.",
+            "bbox": [
+              [681.8377178380362, 287.1784991174178],
+              [969.1376474202933, 287.37965087613793],
+              [969.1198777313399, 312.7596446554546],
+              [681.8199481490827, 312.5584928967345]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "ARTICLE ONE",
+            "bbox": [
+              [740.6764788483036, 346.09970924396407],
+              [911.2364370437433, 346.2191260346614],
+              [911.2193815030457, 370.5791200639819],
+              [740.6594233076061, 370.4597032732846]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "NAME",
+            "bbox": [
+              [791.4144258313557, 377.6152409060669],
+              [866.5351215675655, 376.6478360746752],
+              [866.5194803204726, 398.98783059910136],
+              [791.3994987325186, 398.9352356804968]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "The name of the Corporation is: MALEBRANCHE GP INC.",
+            "bbox": [
+              [165.99549699973795, 432.997370326231],
+              [746.6960548144805, 432.40394497540103],
+              [746.6768708319224, 459.8039382596121],
+              [165.97629901427297, 460.4173636055399]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "ARTICLE TWO",
+            "bbox": [
+              [739.5541318512148, 492.27895926672943],
+              [913.1540893015449, 492.4005044992871],
+              [913.1370337608473, 516.7604985286076],
+              [739.5370763105171, 516.63895329605]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "CAPITALIZATION",
+            "bbox": [
+              [721.2542382008617, 520.68615364396],
+              [931.4141866902704, 520.8332961904711],
+              [931.396417001317, 546.2132899697878],
+              [721.2364685119082, 546.0661474232767]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "A. Number and Classes of Authorized Stock. The total number of shares of stock which the Corporation is authorized to issue is Forty",
+            "bbox": [
+              [165.8931497526454, 579.1773344972521],
+              [1469.4328302526649, 580.090001965272],
+              [1469.4136322671998, 607.509995244581],
+              [165.87466591543614, 605.5773280265649]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Thousand (40,000) shares, divided into two classes as follows:",
+            "bbox": [
+              [88.71325653097813, 607.5633043114412],
+              [684.6531104650205, 607.9805489306258],
+              [684.6346406307183, 634.3605424648407],
+              [88.69478669667592, 633.9432978456562]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "1. Preferred Stock. Ten Thousand (10,000) shares of preferred stock, par value $0.001 per share, of which Five Thousand (5,000)",
+            "bbox": [
+              [320.15268938493347, 665.5853597752002],
+              [1559.732385561663, 666.4532459467085],
+              [1559.7132015791049, 693.8532392309197],
+              [320.1342195506312, 691.9653533094151]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "shares shall be designated \"Series A Preferred Stock \" (collectively with any other series of preferred stock as the Board of Directors",
+            "bbox": [
+              [319.1135056523793, 692.9846389111556],
+              [1560.7332013291011, 693.8539533791756],
+              [1560.714003343636, 721.2739466584846],
+              [319.09502181517, 719.3846324404684]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "may in accordance herewith designate, the \"Preferred Stock\"); and",
+            "bbox": [
+              [318.07289362331335, 722.4239175471032],
+              [965.7934490142411, 721.8574159424542],
+              [965.774965177032, 748.2574094717671],
+              [318.05440978610415, 748.8239110764159]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "2. Common Stock. Thirty Thousand (30,000) shares of Common Stock, without par value (collectively, the \"Common Stock\").",
+            "bbox": [
+              [318.03309736168563, 779.2639036155177],
+              [1528.172800754212, 780.1111775079564],
+              [1528.152888620491, 808.5511705372617],
+              [318.0138993762206, 806.6838968948267]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "B.Attributes of Preferred Stock option.",
+            "bbox": [
+              [162.67261101810436, 837.0351428534454],
+              [562.6718128320415, 838.3152007478775],
+              [562.6540431430881, 863.6951945271942],
+              [162.65414118380204, 863.4151363876604]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "1. Issuance of Preferred Stock in Series. In deletion to the Series A Preferred Stock designated above, Preferred Stock may be issued from time to time",
+            "bbox": [
+              [109.83139940133901, 895.878160747434],
+              [1559.5710440674775, 896.8931894654534],
+              [1559.5525742331752, 923.2731829996684],
+              [109.81364371529264, 921.2381545316526]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "inone or more series, each of such series to have such terms as stated or expressed herein and in the resolution or resolutions providing for the issue of",
+            "bbox": [
+              [106.77150201563461, 924.2960253397807],
+              [1563.6118590898063, 924.2960253397807],
+              [1563.593375252597, 950.6960188690936],
+              [106.7530321813324, 950.6760188739956]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "such series adopted by the Board of Directors of the Corporation as hereinafter provided. Authority is hereby expressly granted to the Board of Directors",
+            "bbox": [
+              [106.75160388482084, 952.7160183739879],
+              [1561.5519614590003, 952.7145900774764],
+              [1561.5327634735352, 980.1345833567856],
+              [106.73312004761158, 979.116011903301]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "from time to time to issue Preferred Stock in one or more series, and in connection with the creation of any such series, by resolution or resolutions",
+            "bbox": [
+              [107.7517055040031, 981.1367255564511],
+              [1560.5313494250322, 982.1538827163309],
+              [1560.5135797360786, 1007.5338764956476],
+              [107.73393581504968, 1006.5167193357678]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "providing for the issuance of the shares thereof, to determine and fix the number of shares of such series and such designations, preferences and relative,",
+            "bbox": [
+              [107.73180737318921, 1009.5567185906583],
+              [1560.5121514395669, 1009.57387599564],
+              [1560.492967457009, 1036.9738692798512],
+              [107.71332353597995, 1035.9567121199714]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "participating, optional or other special rights, and qualifications, limitations or restrictions thereof, voting rights, dividend rights, conversion rights,",
+            "bbox": [
+              [107.71260938772411, 1036.9767118699674],
+              [1560.492967457009, 1036.9738692798512],
+              [1560.473069326195, 1065.3938623140582],
+              [107.69342540516607, 1064.3767051541784]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "redemption privileges and liquidation preferences, as shall be stated and expressed in such resolutions, all to the full extent now or hereafter permitted by",
+            "bbox": [
+              [107.69342540516607, 1064.3767051541784],
+              [1561.4730690810934, 1065.394562459407],
+              [1561.4538710956285, 1092.8145557387163],
+              [107.67352727435218, 1092.7966981883858]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "the Georgia Business Corporation Code. Without limiting the generality of the foregoing, the resolutions providing for issuance of any series of Preferred",
+            "bbox": [
+              [107.67352727435218, 1092.7966981883858],
+              [1561.4531709502796, 1093.8145554936145],
+              [1561.4339729648145, 1121.2345487729235],
+              [107.6543292888872, 1120.216691467695]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Stock may provide that such series or class shall be superior or rank equally or be junior to the Preferred Stock of any other series or class to the extent",
+            "bbox": [
+              [107.65361514063136, 1121.236691217691],
+              [1560.4332590616605, 1122.2538483775709],
+              [1560.4147892273581, 1148.6338419117858],
+              [107.63514530632904, 1147.616684751906]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "permitted by law, and subject to the provisions of this Certificate.",
+            "bbox": [
+              [107.63371700981747, 1149.6566842518985],
+              [728.9342788763344, 1149.0716848071331],
+              [728.9157950391252, 1175.4716783364458],
+              [107.61453302725943, 1177.0566775361096]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "2. Series A Preferred Stock. The rights, preferences, privileges and restrictions granted to and imposed on the Series A Preferred Stock are as set forthbelow:",
+            "bbox": [
+              [108.59392050308793, 1206.4973704656618],
+              [1559.3535649192227, 1207.513113331937],
+              [1559.3343669337573, 1234.933106611246],
+              [108.57472251762283, 1233.9173637449708]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "General. On any matter presented to the stockholders of the Corporation for their action or consideration at any meeting of",
+            "bbox": [
+              [322.7726434392443, 1265.5273411706958],
+              [1563.3723393659702, 1266.39594149046],
+              [1563.3545696770168, 1291.775935269777],
+              [322.75487375029087, 1290.9073349500127]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "stockholders of the Corporation (or by written consent of stockholders in lieu of meeting), each holder of outstanding shares of Series A Preferred",
+            "bbox": [
+              [165.39278387764728, 1293.8371593328106],
+              [1561.3131418805128, 1293.8145064732576],
+              [1561.2946720462105, 1320.1945000074725],
+              [165.37430004043802, 1320.2371528621236]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Stock shall be entitled to cast the number of votes equal to the number of whole shares of Common Stock into which the shares of Series A Preferred",
+            "bbox": [
+              [165.37430004043802, 1320.2371528621236],
+              [1562.3139576479507, 1321.2152139057246],
+              [1562.2954738107414, 1347.6152074350373],
+              [165.35511605787997, 1347.6371461463345]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Stock held by such holder are convertible as of the record date for determining stockholders entitled to vote on such matter. Except as provided by",
+            "bbox": [
+              [165.35440190962413, 1348.6571458963308],
+              [1561.2733456188848, 1350.6544925416722],
+              [1561.2548617816756, 1377.054486070985],
+              [165.33591807241487, 1375.0571394256438]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "law or by the other provisions of this Certificate, holders of each series of Series A Preferred Stock shall vote together with the holders of Common",
+            "bbox": [
+              [167.37520342415132, 1376.0785674721515],
+              [1560.2548620267771, 1377.053785925636],
+              [1560.236392192475, 1403.433779459851],
+              [167.3567335898491, 1402.4585610063662]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Stock as a single class. Holders of Series A Preferred Stock are not entitled to cumulative voting.",
+            "bbox": [
+              [165.31530579334515, 1404.4971322098472],
+              [1084.0950805987272, 1405.1404117534494],
+              [1084.0758966161693, 1432.5404050376605],
+              [165.296821956136, 1430.89712573916]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(ii)",
+            "bbox": [
+              [265.7733424542206, 1464.467482135808],
+              [304.3540471464495, 1463.47449399337],
+              [303.3369918508537, 1487.8337878773418],
+              [265.756286913523, 1488.8274761651287]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Consent for Certain Amendments. The Corporation shall not amend or modify the Certificate of Incorporation in a manner that",
+            "bbox": [
+              [321.6147570642486, 1462.4665787520946],
+              [1560.193739337824, 1464.3537645282504],
+              [1560.1752695035218, 1490.7337580624653],
+              [321.5962732270393, 1488.8665722814076]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "materially andadversely affects the terms, powers, preferences or special rights of the Series A Preferred Stock, except with the affirmative vote or",
+            "bbox": [
+              [165.25418310439193, 1491.7971108124614],
+              [1562.1938407119046, 1492.7751718560623],
+              [1562.1760710229514, 1518.1551656353788],
+              [165.23569926718267, 1518.1971043417743]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "consent of the Series A Majority. In addition, no such amendment or modification may, without the consent of each holder of Series A Preferred",
+            "bbox": [
+              [165.23428497357804, 1520.2171038466684],
+              [1562.1746567293467, 1520.1751651402735],
+              [1562.1561728921374, 1546.5751586695862],
+              [165.21580113636878, 1546.6170973759815]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Stock affected thereby, (x) adversely affect any of the conversion features of such series; or (y) reduce the percentage of outstanding shares of such",
+            "bbox": [
+              [165.21580113636878, 1546.6170973759815],
+              [1561.1354589938855, 1547.5944442713267],
+              [1561.1162750113274, 1574.9944375555378],
+              [165.19731729915964, 1573.0170909052945]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "series necessary to modify or amend the terms thereof or to grant waivers thereof.",
+            "bbox": [
+              [167.2359025055472, 1575.0385187067004],
+              [942.8557123997009, 1575.5815654421635],
+              [942.8386568590033, 1599.941559471484],
+              [167.21813281659377, 1600.418512486017]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(iii) Conversion Price Adjustments for Splits and Certain Dilutive Issuances. The Conversion Price applicable to the Series A Preferred",
+            "bbox": [
+              [269.7160811160845, 1631.9502836762774],
+              [1560.0757648465456, 1632.8537232285996],
+              [1560.0572810093363, 1659.2537167579123],
+              [269.69759727887526, 1658.3502772055901]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "will be subject toadjustment from time to time as follows:",
+            "bbox": [
+              [170.2147790714845, 1662.340625751175],
+              [716.3953593500477, 1661.7030313878054],
+              [716.378289806443, 1686.0830254122238],
+              [170.19700938253106, 1687.7206195304916]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(a)",
+            "bbox": [
+              [267.634244773981, 1720.2688477352833],
+              [300.1142368130751, 1720.2915884562135],
+              [300.09716726947056, 1744.6715824806315],
+              [267.61717523037646, 1744.6488417597016]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Dividends. From and after the date of the issuance of any shares of Series A Preferred Stock, dividends at the rate per annum of",
+            "bbox": [
+              [320.41564613111353, 1718.2858019019002],
+              [1563.055341557832, 1719.1558305181761],
+              [1563.0368577206227, 1745.5558240474888],
+              [320.39716229390433, 1744.685795431213]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "$50.00 per share shallaccrue on such shares of Series A Preferred Stock (subject to appropriate adjustment in the event of any stock dividend, stock",
+            "bbox": [
+              [166.09578581950507, 1746.5977625087826],
+              [1558.975444422131, 1747.5729809622671],
+              [1558.9569605849217, 1773.9729744915799],
+              [166.07801613055165, 1771.977756288099]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "split, combination or other similar recapitalization with respect to the Series A Preferred Stock) (the \"Accruing Dividends\"). Accruing Dividends",
+            "bbox": [
+              [167.09660158694317, 1773.9984699412491],
+              [1559.976260189569, 1774.973688394734],
+              [1559.9577763523598, 1801.373681924047],
+              [167.07740360147807, 1801.4184632205584]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "shall accrue from day to day, whether or not declared, and shall be cumulative. Provided, that there are funds lawfully available therefor, Accruing",
+            "bbox": [
+              [165.03668995322994, 1802.437034674043],
+              [1559.9563480558481, 1803.4136814240392],
+              [1559.9371640732902, 1830.8136747082503],
+              [165.0175059706719, 1829.837027958254]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Dividends shall be paid on the first anniversary of the Series A Original Issue Date and every three months thereafter. At the election of each holder",
+            "bbox": [
+              [165.0175059706719, 1829.837027958254],
+              [1561.9571635781847, 1830.815089001855],
+              [1561.9379655927196, 1858.235082281164],
+              [164.99902213346263, 1856.2370214875668]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "of Series A Preferred Stock, Accruing Dividends may be paid in cash or in shares of Series A Preferred Stock.",
+            "bbox": [
+              [167.0376073398503, 1858.258449288973],
+              [1203.5773532820463, 1858.9841779488538],
+              [1203.5581552965814, 1886.4041712281628],
+              [167.0184093543853, 1885.6784425682818]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(b)",
+            "bbox": [
+              [269.5149293573643, 1919.2502132585348],
+              [299.97563603981985, 1918.251539935864],
+              [299.959294647378, 1941.5915342151882],
+              [269.50000225852716, 1940.5702080329647]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Liquidation. Upon any liquidation, dissolution or winding up of the Corporation, whether voluntary or involuntary, holders of Series",
+            "bbox": [
+              [321.2970591107614, 1916.226467534709],
+              [1558.8567557825963, 1917.0929394126126],
+              [1558.8375577971315, 1944.5129326919218],
+              [321.27786112529634, 1943.6464608140182]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "A Preferred Stockshall be entitled to share ratably with the holders of the Common Stock in the remaining assets of the Corporation available for",
+            "bbox": [
+              [166.97718479624587, 1944.558428136689],
+              [1562.896142508414, 1946.5357747869323],
+              [1562.8769445229486, 1973.9557680662415],
+              [166.95871496194366, 1970.9384216709036]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "distribution to its stockholders.",
+            "bbox": [
+              [165.93657276718, 1973.9977067726363],
+              [462.37650010920703, 1974.205257859845],
+              [462.3594445685094, 1998.5652518891657],
+              [165.92023137473825, 1997.3377010519612]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(c) Optional Conversion.",
+            "bbox": [
+              [252.17746950642606, 2029.8781016317525],
+              [488.73741152514793, 2030.0437280154729],
+              [488.7182135396829, 2057.463721294782],
+              [252.15898566921692, 2056.2780951610657]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(i)",
+            "bbox": [
+              [269.3941122759694, 2091.810170963771],
+              [287.6741077955088, 2091.8229696207477],
+              [289.69846604840825, 2114.164392441685],
+              [269.37847102887645, 2114.1501654881968]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Optional Conversion. Each outstanding share of Series A Preferred Stock shall be convertible at any time, at the option of the",
+            "bbox": [
+              [319.1555143733093, 2089.8250106914347],
+              [1508.9952227414014, 2090.658071633292],
+              [1508.9760387588435, 2118.0580649175026],
+              [319.1370305361001, 2116.225004220747]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "holder thereof, into anumber of fully paid and nonassessable shares of Common Stock as is determined by dividing the Series A Original Issue",
+            "bbox": [
+              [165.83636796485484, 2117.117671693669],
+              [1518.0960365235155, 2118.064450243084],
+              [1518.0768385380502, 2145.484443522393],
+              [165.81716997938975, 2144.5376649729783]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "1",
+            "bbox": [
+              [858.1692885229094, 2184.6024219084757],
+              [869.3292857875732, 2184.6102355305684],
+              [870.3343584387322, 2205.9309444532546],
+              [858.1543614240721, 2205.9224166829054]
+            ],
+            "is_last_in_line": true
+          }
+        ],
+        "page_num": 1,
+        "width": 1653.0,
+        "height": 2339.0,
+        "start_char_num": 0,
+        "end_char_num": 5542
+      },
+      {
+        "items": [
+          {
+            "text": "Price by the Series A Conversion Price for such series as in effect at the time of conversion (each, an \"Optional Conversion\"). The Series A",
+            "bbox": [
+              [166.5, 82.22000000000003],
+              [1484.26, 82.22000000000003],
+              [1484.26, 108.61999999999989],
+              [166.5, 108.61999999999989]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Conversion Price and the Series A Conversion Ratio are subject to possible adjustment as provided in subsection (e) below.",
+            "bbox": [
+              [165.48000000000002, 109.6400000000001],
+              [1331.96, 110.66000000000008],
+              [1331.96, 137.03999999999996],
+              [165.48000000000002, 136.01999999999998]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(ii)",
+            "bbox": [
+              [252.77999999999997, 141.0999999999999],
+              [284.26, 142.1199999999999],
+              [283.24, 164.46000000000004],
+              [252.77999999999997, 164.46000000000004]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Other Provisions regarding Optional Conversion.",
+            "bbox": [
+              [323.86, 139.07999999999993],
+              [787.8199999999999, 140.07999999999993],
+              [787.8199999999999, 165.46000000000004],
+              [323.86, 165.46000000000004]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(A)",
+            "bbox": [
+              [246.70000000000005, 198.96000000000004],
+              [283.24, 199.98000000000002],
+              [283.24, 223.34000000000003],
+              [246.70000000000005, 223.34000000000003]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "No fractional shares shall be issued upon the conversion of any shares of Series A Preferred Stock. All shares of Common Stock",
+            "bbox": [
+              [320.8, 197.96000000000004],
+              [1562.42, 197.96000000000004],
+              [1562.42, 224.33999999999992],
+              [320.8, 224.33999999999992]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(including fractionsthereof) issuable upon conversion of more than one share of Series A Preferred Stock by a holder thereof shall be aggregated for",
+            "bbox": [
+              [166.5, 226.38],
+              [1561.4, 226.38],
+              [1561.4, 252.77999999999997],
+              [166.5, 252.77999999999997]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "purposes of determining whether conversion would result in the issuance of any fractional share. If, after the aforementioned aggregation, the",
+            "bbox": [
+              [166.5, 253.77999999999997],
+              [1560.3999999999999, 253.77999999999997],
+              [1560.3999999999999, 282.20000000000005],
+              [166.5, 282.20000000000005]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "conversion would result in the issuance of a fraction of a share of Common Stock, the Corporation shall, in lieu of issuing any fractional share, pay",
+            "bbox": [
+              [165.48000000000002, 281.20000000000005],
+              [1560.3999999999999, 281.20000000000005],
+              [1560.3999999999999, 309.62],
+              [165.48000000000002, 308.5999999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "the holder otherwise entitled to such fraction a sum in cash equal to the Fair Market Value of such fraction on the date of conversion (as determined",
+            "bbox": [
+              [166.5, 309.62],
+              [1560.3999999999999, 310.64],
+              [1560.3999999999999, 337.02],
+              [166.5, 336.02]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "in good faith by the Board).",
+            "bbox": [
+              [166.5, 339.05999999999995],
+              [432.47999999999996, 339.05999999999995],
+              [432.47999999999996, 365.46000000000004],
+              [166.5, 365.46000000000004]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(B)",
+            "bbox": [
+              [247.72000000000003, 396.91999999999996],
+              [284.26, 397.94000000000005],
+              [283.24, 423.31999999999994],
+              [247.72000000000003, 421.28]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "An Optional Conversion may be effected by surrender to the Corporation at the principal office of the Corporation of the certificate",
+            "bbox": [
+              [322.84000000000003, 395.9000000000001],
+              [1561.4, 396.91999999999996],
+              [1561.4, 423.31999999999994],
+              [322.84000000000003, 422.29999999999995]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "for the series ofSeries A Preferred Stock to be converted accompanied by a written notice from the holder stating that such holder elects to convert",
+            "bbox": [
+              [168.51999999999998, 424.31999999999994],
+              [1561.4, 424.31999999999994],
+              [1561.4, 451.74],
+              [168.51999999999998, 450.72]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "all or a specified number of such shares (which may be fractional shares) in accordance with the provisions of this Section B.2(d) and specifying",
+            "bbox": [
+              [170.55999999999995, 451.74],
+              [1562.42, 451.74],
+              [1562.42, 480.15999999999997],
+              [170.55999999999995, 479.1400000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "the name or names in which such holder wishes the certificate or certificates for shares of Common Stock to be issued.",
+            "bbox": [
+              [169.53999999999996, 481.18000000000006],
+              [1295.42, 481.18000000000006],
+              [1295.42, 506.55999999999995],
+              [169.53999999999996, 506.55999999999995]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(C)",
+            "bbox": [
+              [247.72000000000003, 540.06],
+              [282.24, 540.06],
+              [282.24, 564.42],
+              [247.72000000000003, 563.4000000000001]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "In case the written notice specifying the name or names in which a holder of shares of Series A Preferred Stock converted in",
+            "bbox": [
+              [319.8, 539.04],
+              [1559.3799999999999, 538.02],
+              [1559.3799999999999, 563.4000000000001],
+              [319.8, 564.42]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "accordance with thisSection B.2(d) wishes the certificate or certificates for shares of Common Stock to be issued shall specify a name or names",
+            "bbox": [
+              [167.51999999999998, 565.4399999999999],
+              [1561.4, 566.4399999999999],
+              [1561.4, 592.84],
+              [167.51999999999998, 591.8199999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "other than that of such holder, such notice shall be accompanied by payment of all transfer taxes payable upon the issuance of shares of Common",
+            "bbox": [
+              [168.51999999999998, 594.88],
+              [1560.3999999999999, 594.88],
+              [1560.3999999999999, 622.2800000000001],
+              [168.51999999999998, 621.26]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Stock in such name or names. As promptly as practicable, and in any event within five (5) Business Days after the surrender of such certificate or",
+            "bbox": [
+              [170.55999999999995, 623.3],
+              [1561.4, 622.2800000000001],
+              [1561.4, 648.68],
+              [170.55999999999995, 649.7]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "certificates and the receipt of such notice relating thereto and, if applicable, payment of all transfer taxes (or the demonstration to the satisfaction of",
+            "bbox": [
+              [169.53999999999996, 651.72],
+              [1563.44, 650.6999999999999],
+              [1563.44, 678.12],
+              [169.53999999999996, 678.12]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "the Corporation that such taxes have been paid), the Corporation shall deliver or cause to be delivered (x) certificates representing the number of",
+            "bbox": [
+              [169.53999999999996, 678.12],
+              [1563.44, 678.12],
+              [1563.44, 704.5],
+              [169.53999999999996, 704.5]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "validly issued, fully paid and nonassessable full shares of Common Stock to which the holder of shares of Series A Preferred Stock being converted",
+            "bbox": [
+              [169.53999999999996, 705.52],
+              [1561.4, 705.52],
+              [1561.4, 732.9399999999999],
+              [169.53999999999996, 733.94]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "shall be entitled, and (y) if less than the full number of shares of Series A Preferred Stock evidenced by the surrendered certificate or certificates is",
+            "bbox": [
+              [169.53999999999996, 734.9599999999999],
+              [1563.44, 734.9599999999999],
+              [1563.44, 761.36],
+              [169.53999999999996, 761.36]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "being converted, a new certificate or certificates, of like tenor, for the number of shares of Series A Preferred Stock evidenced by such surrendered",
+            "bbox": [
+              [169.53999999999996, 762.38],
+              [1562.42, 762.38],
+              [1562.42, 788.76],
+              [169.53999999999996, 788.76]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "certificate or certificates less the number of shares thereof being converted.",
+            "bbox": [
+              [168.51999999999998, 790.8000000000001],
+              [881.22, 790.8000000000001],
+              [881.22, 817.18],
+              [168.51999999999998, 817.18]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(D)",
+            "bbox": [
+              [229.44000000000005, 850.6800000000001],
+              [263.96000000000004, 850.6800000000001],
+              [263.96000000000004, 874.04],
+              [230.46000000000004, 873.02]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "In the case of an Optional Conversion, such conversion shall be deemed to have been made at the close of business on the date of",
+            "bbox": [
+              [322.84000000000003, 848.66],
+              [1564.46, 848.66],
+              [1564.46, 874.04],
+              [322.84000000000003, 875.0600000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "giving the written",
+            "bbox": [
+              [169.53999999999996, 878.1],
+              [340.09999999999997, 878.1],
+              [340.09999999999997, 903.48],
+              [170.55999999999995, 904.5]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "notice referred to in the first sentence of Section B.2.(d)(ii)(B) above and of such surrender of the certificate or certificates representing the shares of Series",
+            "bbox": [
+              [86.29999999999995, 905.5],
+              [1561.4, 905.5],
+              [1561.4, 932.9200000000001],
+              [86.29999999999995, 931.9000000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "A Preferred Stock to be converted so that the rights of the holder thereof as to the shares being converted shall cease except for the right to receive shares of",
+            "bbox": [
+              [88.31999999999994, 933.9399999999999],
+              [1563.44, 933.9399999999999],
+              [1563.44, 959.3],
+              [88.31999999999994, 959.3]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Common Stock in accordance herewith, and the Person entitled to receive the shares of Common Stock shall be treated for all purposes as having become",
+            "bbox": [
+              [88.31999999999994, 961.34],
+              [1561.4, 962.36],
+              [1561.4, 988.74],
+              [88.31999999999994, 987.74]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "the record holder of such shares of Common Stock at such time.",
+            "bbox": [
+              [88.31999999999994, 990.78],
+              [696.44, 990.78],
+              [696.44, 1015.1400000000001],
+              [88.31999999999994, 1015.1400000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(iii) Reservation of Common Stock. The Corporation shall at all times reserve, and keep available for issuance upon the conversion of the",
+            "bbox": [
+              [227.39999999999998, 1046.6200000000001],
+              [1560.3999999999999, 1046.6200000000001],
+              [1560.3999999999999, 1073.0],
+              [227.39999999999998, 1073.0]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Series A Preferred Stock, such number of its authorized but unissued shares of Common Stock as will from time to time be sufficient to permit the conversion",
+            "bbox": [
+              [84.25999999999999, 1075.0400000000002],
+              [1561.4, 1075.0400000000002],
+              [1561.4, 1102.44],
+              [84.25999999999999, 1101.42]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "of all outstanding shares of Series A Preferred Stock, and shall take all action required to increase the authorized number of shares of Common Stock if",
+            "bbox": [
+              [86.29999999999995, 1104.48],
+              [1562.42, 1104.48],
+              [1562.42, 1129.8600000000001],
+              [86.29999999999995, 1129.8600000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "necessary to permit the conversion of all outstanding shares of Series A Preferred Stock.",
+            "bbox": [
+              [86.29999999999995, 1133.92],
+              [920.8000000000001, 1131.8799999999999],
+              [920.8000000000001, 1156.24],
+              [86.29999999999995, 1158.28]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(d)",
+            "bbox": [
+              [232.48000000000002, 1220.2],
+              [254.81999999999994, 1219.18],
+              [255.83999999999992, 1244.5600000000002],
+              [233.5, 1244.5600000000002]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Conversion Price Adjustments for Splits and Certain Dilutive Issuances. The Conversion Price applicable to the Series A Preferred",
+            "bbox": [
+              [321.82, 1218.18],
+              [1561.4, 1219.18],
+              [1561.4, 1244.5600000000002],
+              [321.82, 1244.5600000000002]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "will be subject toadjustment from time to time as follows:",
+            "bbox": [
+              [89.34000000000003, 1247.6200000000001],
+              [637.5600000000001, 1247.6200000000001],
+              [637.5600000000001, 1272.98],
+              [89.34000000000003, 1274.0]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(i)",
+            "bbox": [
+              [230.46000000000004, 1305.48],
+              [249.74, 1305.48],
+              [249.74, 1329.8400000000001],
+              [230.46000000000004, 1328.82]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Adjustments for Stock Dividends, Distributions, Reclassifications, Etc. If the Corporation shall, at any time or from time to time",
+            "bbox": [
+              [322.84000000000003, 1304.46],
+              [1560.3999999999999, 1304.46],
+              [1560.3999999999999, 1331.86],
+              [322.84000000000003, 1329.8400000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "after the Series AOriginal Issue Date, subdivide the Common Stock (or other shares of capital stock convertible into Common Stock), by stock split or",
+            "bbox": [
+              [89.34000000000003, 1332.8799999999999],
+              [1563.44, 1333.9],
+              [1563.44, 1360.3],
+              [89.34000000000003, 1359.28]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "otherwise, or combine the Common Stock, or issue additional shares of Common Stock (or other shares of capital stock convertible into Common Stock) in",
+            "bbox": [
+              [88.31999999999994, 1361.3],
+              [1561.4, 1361.3],
+              [1561.4, 1387.7],
+              [88.31999999999994, 1388.72]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "payment of a stock dividend on the Common Stock, the Series A Conversion Price shall forthwith be proportionately decreased in the case of a subdivision",
+            "bbox": [
+              [87.29999999999995, 1389.74],
+              [1562.42, 1388.72],
+              [1562.42, 1415.1],
+              [87.29999999999995, 1416.12]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "or stock dividend, or proportionately increased in the case of a combination, with the effect that the Series A Conversion Ratio shall forthwith be",
+            "bbox": [
+              [88.31999999999994, 1417.14],
+              [1560.3999999999999, 1416.12],
+              [1560.3999999999999, 1442.52],
+              [88.31999999999994, 1443.54]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "proportionately increased in the case of a subdivision or stock dividend, or proportionately decreased in the case of a combination.",
+            "bbox": [
+              [86.29999999999995, 1446.58],
+              [1322.8400000000001, 1445.56],
+              [1322.8400000000001, 1471.96],
+              [86.29999999999995, 1472.98]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Full Ratchet Protection. If at any time after the date of filing of these Articles (x) the Corporation shall issue shares of Common",
+            "bbox": [
+              [322.84000000000003, 1502.42],
+              [1560.3999999999999, 1502.42],
+              [1560.3999999999999, 1529.82],
+              [322.84000000000003, 1528.8]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Stock (or other sharesof capital stock convertible into Common Stock), and (y) the consideration per share payable to the Corporation for the Common Stock",
+            "bbox": [
+              [89.34000000000003, 1530.8400000000001],
+              [1562.42, 1530.8400000000001],
+              [1562.42, 1557.22],
+              [89.34000000000003, 1558.24]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(or other share of capital stock convertible into Common Stock) reflects a pre-money imputed equity value of the Corporation of less than $5.5 million, then",
+            "bbox": [
+              [88.31999999999994, 1559.26],
+              [1562.42, 1558.24],
+              [1562.42, 1585.66],
+              [88.31999999999994, 1586.66]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "in each such case (subject to Section B.2(e)(iv)), the Series A Conversion Price, shall be reduced to the lowest price per share at which any such share of",
+            "bbox": [
+              [87.29999999999995, 1586.66],
+              [1564.46, 1586.66],
+              [1564.46, 1613.0600000000002],
+              [87.29999999999995, 1614.08]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Common Stock (or other share of capital stock convertible into Common Stock) has been so issued or sold.",
+            "bbox": [
+              [87.29999999999995, 1616.1000000000001],
+              [1105.58, 1615.1],
+              [1105.58, 1641.48],
+              [87.29999999999995, 1641.48]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(iii) Adjustments Only After Stock Issued; Determination of Consideration.",
+            "bbox": [
+              [228.41999999999996, 1672.96],
+              [957.3600000000001, 1672.96],
+              [957.3600000000001, 1698.34],
+              [228.41999999999996, 1699.3400000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(A)",
+            "bbox": [
+              [226.39999999999998, 1733.86],
+              [263.96000000000004, 1734.88],
+              [262.94000000000005, 1757.2199999999998],
+              [226.39999999999998, 1758.22]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "The mere issuance of options, warrants or other securities (other than capital stock) convertible into capital stock of the Corporation",
+            "bbox": [
+              [315.74, 1731.8400000000001],
+              [1561.4, 1731.8400000000001],
+              [1561.4, 1759.2400000000002],
+              [315.74, 1759.2400000000002]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "shall not requirean adjustment hereunder until such securities are exercised or converted into Common Stock capital stock of the Corporation (or capital",
+            "bbox": [
+              [87.29999999999995, 1760.26],
+              [1561.4, 1761.28],
+              [1561.4, 1788.68],
+              [87.29999999999995, 1787.66]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "stock convertible into Common Stock of the Corporation).",
+            "bbox": [
+              [88.31999999999994, 1788.68],
+              [642.64, 1788.68],
+              [642.64, 1815.08],
+              [88.31999999999994, 1815.08]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(B)",
+            "bbox": [
+              [229.44000000000005, 1847.56],
+              [260.9200000000001, 1847.56],
+              [260.9200000000001, 1871.92],
+              [229.44000000000005, 1871.92]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "For purposes of Section B.2(e)(ii), the reference to the consideration received by the Corporation for an issuance of capital stock",
+            "bbox": [
+              [318.78000000000003, 1845.5200000000002],
+              [1561.4, 1845.5200000000002],
+              [1561.4, 1872.9399999999998],
+              [318.78000000000003, 1872.9399999999998]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "convertible intoCommon Stock shall mean the aggregate of the consideration received for the issuance of such capital stock, plus the consideration that will",
+            "bbox": [
+              [89.34000000000003, 1873.96],
+              [1562.42, 1873.96],
+              [1562.42, 1900.34],
+              [89.34000000000003, 1901.3600000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "be payable to the Corporation upon its conversion into Common Stock.",
+            "bbox": [
+              [89.34000000000003, 1903.3999999999999],
+              [763.44, 1902.38],
+              [763.44, 1928.78],
+              [89.34000000000003, 1929.78]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(iv) Exceptions. The provisions of Section B.2(e)(ii) shall not apply to the following issuances:",
+            "bbox": [
+              [251.77999999999997, 1960.24],
+              [1153.28, 1960.24],
+              [1153.28, 1988.66],
+              [251.77999999999997, 1987.64]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(A)any issuance covered by Section B.2(e)(i);",
+            "bbox": [
+              [251.77999999999997, 2017.08],
+              [690.34, 2017.08],
+              [690.34, 2044.5],
+              [251.77999999999997, 2045.5200000000002]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(B)any stock options granted to employees or directors of the Corporation or the issuance of shares upon exercise thereof;",
+            "bbox": [
+              [251.77999999999997, 2075.96],
+              [1408.1, 2074.96],
+              [1408.1, 2104.4],
+              [251.77999999999997, 2105.3999999999996]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(C)any issuance as consideration for mergers or acquisitions;",
+            "bbox": [
+              [250.76, 2133.84],
+              [832.48, 2134.84],
+              [832.48, 2162.2599999999998],
+              [250.76, 2162.2599999999998]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "2",
+            "bbox": [
+              [855.84, 2185.6000000000004],
+              [871.06, 2185.6000000000004],
+              [872.08, 2205.9],
+              [856.84, 2205.9]
+            ],
+            "is_last_in_line": true
+          }
+        ],
+        "page_num": 2,
+        "width": 1653.0,
+        "height": 2339.0,
+        "start_char_num": 5542,
+        "end_char_num": 12608
+      },
+      {
+        "items": [
+          {
+            "text": "(D)any issuance in connection with the formation of joint ventures, strategic business relationships, or corporate partnering transactions;",
+            "bbox": [
+              [250.76, 112.68000000000006],
+              [1561.4, 112.68000000000006],
+              [1561.4, 140.07999999999993],
+              [250.76, 139.07999999999993]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "or",
+            "bbox": [
+              [286.29999999999995, 146.18000000000006],
+              [307.62, 146.18000000000006],
+              [307.62, 163.44000000000005],
+              [286.29999999999995, 163.44000000000005]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(E) any issuance of shares in an initial public offering.",
+            "bbox": [
+              [251.77999999999997, 197.96000000000004],
+              [762.4399999999999, 197.96000000000004],
+              [762.4399999999999, 226.38],
+              [251.77999999999997, 226.38]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(v) Effectiveness. Any adjustment made pursuant to Section B.2(e)(ii) above shall be made on the next Business Day following the date on",
+            "bbox": [
+              [251.77999999999997, 254.79999999999995],
+              [1560.3999999999999, 254.79999999999995],
+              [1560.3999999999999, 281.20000000000005],
+              [251.77999999999997, 282.20000000000005]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "which anysuch issuance is made and shall be effective retroactively immediately after the close of business on such date.",
+            "bbox": [
+              [252.77999999999997, 284.24],
+              [1396.94, 283.22],
+              [1396.94, 308.5999999999999],
+              [252.77999999999997, 309.62]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(e) Other Provisions.",
+            "bbox": [
+              [250.76, 342.0999999999999],
+              [449.74, 342.0999999999999],
+              [449.74, 368.5],
+              [250.76, 367.48]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(i)",
+            "bbox": [
+              [249.74, 402.0],
+              [269.03999999999996, 402.0],
+              [270.03999999999996, 424.31999999999994],
+              [249.74, 424.31999999999994]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Certain Distributions. In the event the Corporation shall declare a distribution payable in securities of other Persons, evidences of",
+            "bbox": [
+              [320.8, 399.96000000000004],
+              [1563.44, 399.96000000000004],
+              [1563.44, 427.3799999999999],
+              [320.8, 427.3799999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "indebtedness issuedby the Corporation or other Persons, assets (excluding cash dividends) or options or rights not referred to in this Section B.2 to the holders",
+            "bbox": [
+              [86.29999999999995, 428.4],
+              [1561.4, 428.4],
+              [1561.4, 455.79999999999995],
+              [86.29999999999995, 455.79999999999995]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "of Common Stock, then, in each such case for the purpose of this Section B.2, the holders of the Series A Preferred Stock shall be entitled to a proportionate",
+            "bbox": [
+              [87.29999999999995, 455.79999999999995],
+              [1561.4, 455.79999999999995],
+              [1561.4, 483.20000000000005],
+              [87.29999999999995, 483.20000000000005]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "share of any such distribution as though they were the holders of the number of shares of Common Stock of the Corporation into which such shares of Series",
+            "bbox": [
+              [88.31999999999994, 485.24],
+              [1560.3999999999999, 484.22],
+              [1560.3999999999999, 510.62],
+              [88.31999999999994, 510.62]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "A Preferred Stock are convertible as of the record date fixed for the determination of the holders of Common Stock of the Corporation entitled to receive",
+            "bbox": [
+              [87.29999999999995, 513.66],
+              [1561.4, 513.66],
+              [1561.4, 539.04],
+              [87.29999999999995, 539.04]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "such distribution.",
+            "bbox": [
+              [87.29999999999995, 544.12],
+              [252.77999999999997, 542.0799999999999],
+              [252.77999999999997, 565.4399999999999],
+              [87.29999999999995, 567.46]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(ii)",
+            "bbox": [
+              [248.72000000000003, 599.9399999999999],
+              [279.18000000000006, 599.9399999999999],
+              [279.18000000000006, 623.3],
+              [249.74, 623.3]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Recapitalization. If at any time or from time to time there shall be a recapitalization of the Common Stock (other than a subdivision,",
+            "bbox": [
+              [321.82, 597.92],
+              [1559.3799999999999, 597.92],
+              [1559.3799999999999, 624.3199999999999],
+              [321.82, 624.3199999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "combination ormerger or sale of assets transaction provided for elsewhere in this Section B.2), provision shall be made so that the holders of the Series A",
+            "bbox": [
+              [87.29999999999995, 627.36],
+              [1563.44, 626.34],
+              [1563.44, 652.74],
+              [87.29999999999995, 653.76]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Preferred Stock shall thereafter be entitled to receive upon conversion of their Series A Preferred Stock the number of shares of stock or other securities or",
+            "bbox": [
+              [87.29999999999995, 654.76],
+              [1561.4, 654.76],
+              [1561.4, 681.1600000000001],
+              [87.29999999999995, 681.1600000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "property of the Corporation or otherwise, to which a holder of the number of shares of Common Stock deliverable upon conversion would have been entitled",
+            "bbox": [
+              [86.29999999999995, 683.1999999999999],
+              [1562.42, 682.18],
+              [1562.42, 708.5600000000001],
+              [86.29999999999995, 709.5799999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "on such recapitalization. In any such case, appropriate adjustment shall be made in the application of the provisions of this Section B.2 with respect to the",
+            "bbox": [
+              [88.31999999999994, 711.62],
+              [1561.4, 710.6],
+              [1561.4, 737.0],
+              [88.31999999999994, 738.0]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "rights of the holders of the Series A Preferred Stock after the recapitalization to the end that the provisions of this Section B.2 (including adjustment of the",
+            "bbox": [
+              [89.34000000000003, 739.02],
+              [1561.4, 739.02],
+              [1561.4, 766.4399999999999],
+              [89.34000000000003, 766.4399999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "applicable Series A Conversion Price for the Series A Preferred Stock then in effect and the number of shares issuable upon conversion of the Series A",
+            "bbox": [
+              [89.34000000000003, 766.4399999999999],
+              [1563.44, 766.4399999999999],
+              [1563.44, 793.8399999999999],
+              [89.34000000000003, 793.8399999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Preferred Stock) shall be applicable after that event as nearly equivalent as may be practicable.",
+            "bbox": [
+              [88.31999999999994, 795.88],
+              [986.8000000000001, 795.88],
+              [986.8000000000001, 822.26],
+              [88.31999999999994, 821.26]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(iii)",
+            "bbox": [
+              [250.76, 855.7600000000001],
+              [284.26, 854.7599999999999],
+              [284.26, 879.12],
+              [250.76, 877.0799999999999]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "No Impairment. The Corporation will not, by amendment of its Certificate or through any reorganization, recapitalization, transfer",
+            "bbox": [
+              [321.82, 852.72],
+              [1560.3999999999999, 852.72],
+              [1560.3999999999999, 880.12],
+              [321.82, 880.12]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "of assets, consolidation, merger, dissolution, issue or sale of securities or any other voluntary action, avoid or seek to avoid the observance or performance",
+            "bbox": [
+              [88.31999999999994, 881.1400000000001],
+              [1559.3799999999999, 881.1400000000001],
+              [1559.3799999999999, 908.56],
+              [88.31999999999994, 907.54]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "of any of the terms to be observed or performed hereunder by the Corporation, but will at all times in good faith assist in the carrying out of all the provisions",
+            "bbox": [
+              [87.29999999999995, 908.56],
+              [1559.3799999999999, 908.56],
+              [1559.3799999999999, 934.9399999999999],
+              [87.29999999999995, 935.96]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "of this Section B.2 and in the taking of all such action as may be reasonably necessary or appropriate in order to protect the conversion rights of the holders",
+            "bbox": [
+              [87.29999999999995, 936.98],
+              [1560.3999999999999, 936.98],
+              [1560.3999999999999, 965.4],
+              [87.29999999999995, 964.3800000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "of the Series A Preferred Stock against impairment.",
+            "bbox": [
+              [88.31999999999994, 965.4],
+              [575.62, 966.42],
+              [575.62, 992.8000000000001],
+              [88.31999999999994, 990.78]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(iv)",
+            "bbox": [
+              [253.79999999999995, 1024.28],
+              [288.31999999999994, 1023.26],
+              [288.31999999999994, 1047.6200000000001],
+              [253.79999999999995, 1047.6200000000001]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Reorganization. If any capital reorganization or reclassification of the capital stock of the Corporation, or consolidation or merger",
+            "bbox": [
+              [321.82, 1022.24],
+              [1560.3999999999999, 1022.24],
+              [1560.3999999999999, 1049.66],
+              [321.82, 1048.6399999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "of the Corporationwith and into another corporation shall be effected while any shares of Preferred Stock are outstanding in such a manner that holders of",
+            "bbox": [
+              [87.29999999999995, 1051.68],
+              [1563.44, 1051.68],
+              [1563.44, 1078.08],
+              [87.29999999999995, 1078.08]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "shares of Common Stock shall be entitled to receive stock, securities or assets with respect to or in exchange for Common Stock, then, as a condition of such",
+            "bbox": [
+              [89.34000000000003, 1079.1000000000001],
+              [1561.4, 1079.1000000000001],
+              [1561.4, 1105.5],
+              [89.34000000000003, 1105.5]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "reorganization or reclassification, consolidation or merger, lawful and adequate provision shall be made whereby each holder of Series A Preferred Stock",
+            "bbox": [
+              [87.29999999999995, 1107.52],
+              [1563.44, 1106.5],
+              [1563.44, 1132.9],
+              [87.29999999999995, 1133.92]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "shall thereafter have the right to receive upon the basis and upon the terms and conditions specified herein and in lieu of the shares of Common Stock",
+            "bbox": [
+              [88.31999999999994, 1134.92],
+              [1562.42, 1134.92],
+              [1562.42, 1161.3200000000002],
+              [88.31999999999994, 1162.34]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "immediately theretofore receivable upon conversion of Series A Preferred Stock, such shares of stock, securities or assets as may be issued or payable with",
+            "bbox": [
+              [88.31999999999994, 1163.36],
+              [1561.4, 1163.36],
+              [1561.4, 1190.76],
+              [88.31999999999994, 1190.76]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "respect to or in exchange for a number of outstanding shares of such Common Stock equal to the number of shares of such Common Stock immediately",
+            "bbox": [
+              [86.29999999999995, 1191.78],
+              [1559.3799999999999, 1191.78],
+              [1559.3799999999999, 1219.18],
+              [86.29999999999995, 1220.2]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "theretofore so receivable had such reorganization or reclassification, consolidation, merger or sale not taken place, and in such case appropriate provision",
+            "bbox": [
+              [88.31999999999994, 1220.2],
+              [1560.3999999999999, 1220.2],
+              [1560.3999999999999, 1247.6200000000001],
+              [88.31999999999994, 1246.6]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "shall be made with respect to the rights and interests of the holders of Series A Preferred Stock to the end that the provisions hereof (including, without",
+            "bbox": [
+              [88.31999999999994, 1246.6],
+              [1561.4, 1246.6],
+              [1561.4, 1274.0],
+              [88.31999999999994, 1274.0]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "limitation, provisions for adjustment of the Series A Conversion Price and of the number of shares of Common Stock issuable upon conversion thereof) shall",
+            "bbox": [
+              [88.31999999999994, 1276.04],
+              [1562.42, 1276.04],
+              [1562.42, 1304.46],
+              [88.31999999999994, 1304.46]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "thereafter be applicable, as nearly as may be reasonably possible, in relation to any shares of stock, securities or assets thereafter deliverable upon the",
+            "bbox": [
+              [87.29999999999995, 1304.46],
+              [1562.42, 1303.44],
+              [1562.42, 1330.8600000000001],
+              [87.29999999999995, 1330.8600000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "conversion of such shares of Series A Preferred Stock. Prior to or simultaneously with the consummation or any such consolidation or merger of the",
+            "bbox": [
+              [89.34000000000003, 1332.8799999999999],
+              [1561.4, 1332.8799999999999],
+              [1561.4, 1359.28],
+              [89.34000000000003, 1358.26]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Corporation, the survivor or successor corporation (if other than the Corporation) resulting from such consolidation or merger shall assume by written",
+            "bbox": [
+              [87.29999999999995, 1360.3],
+              [1561.4, 1360.3],
+              [1561.4, 1386.68],
+              [87.29999999999995, 1386.68]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "instrument executed and mailed or delivered to each holder of Series A Preferred Stock, the obligation to deliver to such holders of Series A Preferred Stock",
+            "bbox": [
+              [87.29999999999995, 1387.7],
+              [1560.3999999999999, 1387.7],
+              [1560.3999999999999, 1414.1],
+              [87.29999999999995, 1414.1]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "such shares of stock, securities or assets as, in accordance with the foregoing provisions, such holder of Series A Preferred Stock may be entitled to receive,",
+            "bbox": [
+              [87.29999999999995, 1416.12],
+              [1560.3999999999999, 1416.12],
+              [1560.3999999999999, 1442.52],
+              [87.29999999999995, 1442.52]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "and containing the express assumption of such successor corporation of the due and punctual performance and observance of every provision of this",
+            "bbox": [
+              [86.29999999999995, 1444.54],
+              [1561.4, 1443.54],
+              [1561.4, 1470.94],
+              [86.29999999999995, 1470.94]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Certificate (as such may be amended from time to time) to be performed and observed by the Corporation and of all liabilities and obligations of the",
+            "bbox": [
+              [87.29999999999995, 1472.98],
+              [1561.4, 1472.98],
+              [1561.4, 1499.3600000000001],
+              [87.29999999999995, 1499.3600000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Corporation hereunder with respect to the Series A Preferred Stock.",
+            "bbox": [
+              [87.29999999999995, 1502.42],
+              [728.92, 1500.38],
+              [728.92, 1526.78],
+              [87.29999999999995, 1527.78]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(v)",
+            "bbox": [
+              [267.0, 1559.26],
+              [299.48, 1559.26],
+              [299.48, 1583.62],
+              [268.02, 1583.62]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Certificate of Adjustment. Upon the occurrence of each adjustment or readjustment of the applicable Series A Conversion Price",
+            "bbox": [
+              [321.82, 1557.22],
+              [1560.3999999999999, 1557.22],
+              [1560.3999999999999, 1583.62],
+              [321.82, 1584.6399999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "pursuant to this Section B.2, the Corporation, at its expense, shall promptly compute such adjustment or readjustment in accordance with the terms hereof",
+            "bbox": [
+              [88.31999999999994, 1586.66],
+              [1563.44, 1585.66],
+              [1563.44, 1613.0600000000002],
+              [88.31999999999994, 1614.08]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "and prepare and furnish to each holder of Series A Preferred Stock so affected a statement, signed by its chief financial officer or other appropriate officer,",
+            "bbox": [
+              [87.29999999999995, 1614.08],
+              [1559.3799999999999, 1614.08],
+              [1559.3799999999999, 1641.48],
+              [87.29999999999995, 1641.48]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "setting forth such adjustment or readjustment and showing in detail the facts upon which such adjustment or readjustment is based. The Corporation shall,",
+            "bbox": [
+              [87.29999999999995, 1643.5199999999998],
+              [1559.3799999999999, 1643.5199999999998],
+              [1559.3799999999999, 1668.9],
+              [87.29999999999995, 1669.9]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "upon the written request at any time of any holder of Series A Preferred Stock, furnish or cause to be furnished to such holder a like certificate setting forth",
+            "bbox": [
+              [87.29999999999995, 1670.9199999999998],
+              [1560.3999999999999, 1669.9],
+              [1560.3999999999999, 1697.32],
+              [87.29999999999995, 1698.34]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(A) such adjustment and readjustment, (B) Series A Conversion at the time in effect, and (C) the number of shares of Common Stock and the amount, if any,",
+            "bbox": [
+              [88.31999999999994, 1698.34],
+              [1559.3799999999999, 1698.34],
+              [1559.3799999999999, 1725.74],
+              [88.31999999999994, 1726.7600000000002]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "of other property which at the time would be received upon the conversion of a share of Series A Preferred Stock held by such holders.",
+            "bbox": [
+              [88.31999999999994, 1727.78],
+              [1365.48, 1726.7600000000002],
+              [1365.48, 1753.16],
+              [88.31999999999994, 1754.1599999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(vi)",
+            "bbox": [
+              [254.81999999999994, 1784.62],
+              [315.74, 1783.6],
+              [315.74, 1811.02],
+              [254.81999999999994, 1811.02]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Notice of Certain Corporate Action. If any time or from time to time the Corporation shall pay any stock dividend or make any other",
+            "bbox": [
+              [319.8, 1783.6],
+              [1561.4, 1784.62],
+              [1561.4, 1811.02],
+              [319.8, 1810.0000000000002]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "non-cashdistribution to the holders of its Common Stock, or shall offer for subscription pro rata to the holders of its Common Stock any additional shares of",
+            "bbox": [
+              [87.29999999999995, 1813.0400000000002],
+              [1567.5, 1813.0400000000002],
+              [1567.5, 1840.4599999999998],
+              [87.29999999999995, 1840.4599999999998]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "stock of any class or any other right, or there shall be any capital reorganization or reclassification of the Common Stock of the Corporation or consolidation",
+            "bbox": [
+              [87.29999999999995, 1840.4599999999998],
+              [1561.4, 1840.4599999999998],
+              [1561.4, 1867.86],
+              [87.29999999999995, 1867.86]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "or merger of the Corporation with or into another corporation, or any sale or conveyance to another corporation of the property of the Corporation as an",
+            "bbox": [
+              [88.31999999999994, 1868.88],
+              [1561.4, 1868.88],
+              [1561.4, 1895.28],
+              [88.31999999999994, 1896.2800000000002]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "entirety or substantially as an entirety, or there shall be a voluntary or involuntary dissolution, liquidation or winding up of the Corporation, then, in any one",
+            "bbox": [
+              [88.31999999999994, 1896.2800000000002],
+              [1563.44, 1896.2800000000002],
+              [1563.44, 1923.6999999999998],
+              [88.31999999999994, 1923.6999999999998]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "or more of said cases, the Corporation shall give at least 20 days' prior written notice to the registered holders of Series A Preferred Stock at the addresses",
+            "bbox": [
+              [88.31999999999994, 1925.72],
+              [1560.3999999999999, 1924.72],
+              [1560.3999999999999, 1951.1],
+              [88.31999999999994, 1952.1200000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "of each as shown on the books of the Corporation as of the date on which (i) the books of the Corporation shall close or a record shall be taken for such stock",
+            "bbox": [
+              [87.29999999999995, 1954.1399999999999],
+              [1563.44, 1953.14],
+              [1563.44, 1979.5200000000002],
+              [87.29999999999995, 1980.54]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "dividend, distribution or subscription rights or (ii) such reorganization, reclassification, consolidation, merger, sale or conveyance, dissolution, liquidation",
+            "bbox": [
+              [87.29999999999995, 1980.54],
+              [1561.4, 1980.54],
+              [1561.4, 2006.94],
+              [87.29999999999995, 2006.94]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "or winding up shall take place, as the case may be, provided that in the case of any liquidation to which this Section B.2(f)(vi) applies the Corporation shall",
+            "bbox": [
+              [87.29999999999995, 2008.96],
+              [1560.3999999999999, 2007.96],
+              [1560.3999999999999, 2035.3600000000001],
+              [87.29999999999995, 2036.38]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "give at least 30 days' prior written notice as aforesaid. Such notice shall also specify the date as of which the holders of the Common Stock of record shall",
+            "bbox": [
+              [87.29999999999995, 2038.4],
+              [1561.4, 2037.3999999999999],
+              [1561.4, 2063.7799999999997],
+              [87.29999999999995, 2065.82]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "participate in said dividend, distribution or subscription rights or shall be entitled to exchange their Common Stock for securities or other property deliverable",
+            "bbox": [
+              [87.29999999999995, 2064.8],
+              [1560.3999999999999, 2064.8],
+              [1560.3999999999999, 2092.2000000000003],
+              [87.29999999999995, 2093.2200000000003]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "upon such reorganization, reclassification, consolidation, merger, sale or conveyance or participate in such dissolution, liquidation or winding up, as the case",
+            "bbox": [
+              [87.29999999999995, 2094.24],
+              [1560.3999999999999, 2093.2200000000003],
+              [1560.3999999999999, 2121.64],
+              [87.29999999999995, 2121.64]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "may be. Notwithstanding the foregoing, failure to give such notice shall not invalidate any action so taken.",
+            "bbox": [
+              [85.27999999999997, 2121.64],
+              [1097.46, 2120.64],
+              [1097.46, 2148.04],
+              [85.27999999999997, 2149.06]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "3",
+            "bbox": [
+              [857.86, 2185.6000000000004],
+              [870.04, 2185.6000000000004],
+              [871.06, 2206.92],
+              [857.86, 2205.9]
+            ],
+            "is_last_in_line": true
+          }
+        ],
+        "page_num": 3,
+        "width": 1653.0,
+        "height": 2339.0,
+        "start_char_num": 12608,
+        "end_char_num": 21367
+      },
+      {
+        "items": [
+          {
+            "text": "(vii) Enforcement. Any registered holder of Series A Preferred Stock may proceed to protect and enforce its rights by any available",
+            "bbox": [
+              [252.77999999999997, 82.22000000000003],
+              [1559.3799999999999, 82.22000000000003],
+              [1559.3799999999999, 109.6400000000001],
+              [252.77999999999997, 108.61999999999989]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "remedy by proceedingat law or in equity to protect and enforce any such rights, whether for the specific enforcement of any provision in this Certificate or",
+            "bbox": [
+              [86.29999999999995, 110.66000000000008],
+              [1561.4, 109.6400000000001],
+              [1561.4, 136.01999999999998],
+              [86.29999999999995, 138.05999999999995]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "in aid of the exercise of any power granted herein, or to enforce any other proper remedy.",
+            "bbox": [
+              [89.34000000000003, 139.07999999999993],
+              [935.0199999999999, 140.07999999999993],
+              [935.0199999999999, 167.5],
+              [89.34000000000003, 165.46000000000004]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(viii) No Reissuance of Preferred Stock. No Series A Preferred Stock acquired by the Corporation by reason of redemption, purchase, or",
+            "bbox": [
+              [250.76, 195.92000000000007],
+              [1562.42, 196.94000000000005],
+              [1561.4, 224.33999999999992],
+              [250.76, 222.31999999999994]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "otherwise shall bereissued, and all such shares shall be cancelled, retired and eliminated from the shares which the Corporation shall be authorized to issue.",
+            "bbox": [
+              [87.29999999999995, 224.33999999999992],
+              [1557.34, 224.33999999999992],
+              [1557.34, 251.76],
+              [87.29999999999995, 250.74]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(ix) Notices. All notices to the Corporation or to the holders of the Series A Preferred Stock permitted hereunder shall be in writing",
+            "bbox": [
+              [252.77999999999997, 282.20000000000005],
+              [1561.4, 282.20000000000005],
+              [1561.4, 308.5999999999999],
+              [252.77999999999997, 309.62]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "personally delivered orsent by first class mail, postage prepaid, addressed (A) in the case of a notice to the Corporation, to its principal executive offices,",
+            "bbox": [
+              [86.29999999999995, 310.64],
+              [1561.4, 310.64],
+              [1561.4, 337.02],
+              [86.29999999999995, 337.02]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "attention of the Chief Executive Officer (or to such other address as the Corporation shall designate by notice thereof given to the holders of the Series A",
+            "bbox": [
+              [86.29999999999995, 338.03999999999996],
+              [1563.44, 338.03999999999996],
+              [1563.44, 364.44000000000005],
+              [86.29999999999995, 364.44000000000005]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Preferred Stock) or (B) in the case of a notice to the holders of the Series A Preferred Stock, to their respective addresses appearing on the books of the",
+            "bbox": [
+              [89.34000000000003, 367.48],
+              [1562.42, 367.48],
+              [1562.42, 393.88],
+              [89.34000000000003, 393.88]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Corporation.",
+            "bbox": [
+              [89.34000000000003, 396.91999999999996],
+              [208.12, 396.91999999999996],
+              [208.12, 422.29999999999995],
+              [89.34000000000003, 421.28]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(f)",
+            "bbox": [
+              [249.74, 453.76],
+              [270.03999999999996, 453.76],
+              [271.05999999999995, 479.1400000000001],
+              [249.74, 479.1400000000001]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Redemption of Series A Preferred Stock. At any time following the first anniversary of the Series A Original Issuance Date, the",
+            "bbox": [
+              [320.8, 452.76],
+              [1561.4, 452.76],
+              [1561.4, 480.15999999999997],
+              [320.8, 479.1400000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Company may,provided that the value of the Corporation exceeds $6 million as determined by the Board of Directors of the Company, redeem all, but not",
+            "bbox": [
+              [87.29999999999995, 481.18000000000006],
+              [1560.3999999999999, 480.15999999999997],
+              [1560.3999999999999, 507.5799999999999],
+              [87.29999999999995, 507.5799999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "less than all, of the outstanding shares of Series A Preferred Stock on ten (10) days prior written notice to the holders thereof, in consideration for payment",
+            "bbox": [
+              [86.29999999999995, 508.5799999999999],
+              [1562.42, 508.5799999999999],
+              [1562.42, 536.0],
+              [86.29999999999995, 534.98]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "by the Corporation to the holders of $500 per share of Series A Preferred Stock plus all Accruing Dividends then accrued.",
+            "bbox": [
+              [88.31999999999994, 536.0],
+              [1237.56, 536.0],
+              [1237.56, 563.4000000000001],
+              [88.31999999999994, 563.4000000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "C.Attributes of Common Stock.",
+            "bbox": [
+              [164.46000000000004, 593.86],
+              [486.30000000000007, 593.86],
+              [486.30000000000007, 622.2800000000001],
+              [164.46000000000004, 622.2800000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "1. Voting. The holders of Common Stock are entitled to one vote for each share held. There shall be no cumulative voting.",
+            "bbox": [
+              [252.77999999999997, 652.74],
+              [1404.04, 652.74],
+              [1404.04, 679.14],
+              [252.77999999999997, 679.14]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "2. Dividends. Dividends may be declared and paid on the Common Stock from funds lawfully available therefor if, as and when determined",
+            "bbox": [
+              [251.77999999999997, 710.6],
+              [1561.4, 710.6],
+              [1561.4, 737.0],
+              [251.77999999999997, 737.0]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "by the Boardof Directors in their sole discretion, subject to provisions of law, any provision of this Certificate, and subject to the relative",
+            "bbox": [
+              [270.03999999999996, 739.02],
+              [1562.42, 739.02],
+              [1562.42, 766.4399999999999],
+              [270.03999999999996, 766.4399999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "rights and preferences of any shares of Series A Preferred Stock authorized and issued hereunder.",
+            "bbox": [
+              [271.05999999999995, 767.44],
+              [1190.86, 767.44],
+              [1190.86, 793.8399999999999],
+              [271.05999999999995, 794.86]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "3. Liquidation. Upon any liquidation, dissolution or winding up of the Corporation, whether voluntary or involuntary, holders of Common",
+            "bbox": [
+              [249.74, 825.3199999999999],
+              [1560.3999999999999, 825.3199999999999],
+              [1560.3999999999999, 852.72],
+              [249.74, 852.72]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Stock shall be entitled to share ratably in the remaining assets of the Corporation available for distribution to its stockholders.",
+            "bbox": [
+              [271.05999999999995, 853.74],
+              [1459.88, 853.74],
+              [1459.88, 881.1400000000001],
+              [271.05999999999995, 881.1400000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "ARTICLE THREE",
+            "bbox": [
+              [725.88, 909.56],
+              [924.86, 910.58],
+              [924.86, 935.96],
+              [725.88, 934.9399999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "DIRECTOR'S LIABILITY",
+            "bbox": [
+              [683.24, 941.04],
+              [966.48, 941.04],
+              [966.48, 966.42],
+              [683.24, 966.42]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(a) To the fullest extent permitted by applicable law, no director of the Corporation shall have any liability to the Corporation or its",
+            "bbox": [
+              [246.70000000000005, 998.9000000000001],
+              [1559.3799999999999, 998.9000000000001],
+              [1559.3799999999999, 1026.3],
+              [246.70000000000005, 1026.3]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "shareholders formonetary damages for any action or failure to take action, including, without limitation, for breach of duty of care or other duty as a director,",
+            "bbox": [
+              [90.36000000000001, 1027.32],
+              [1560.3999999999999, 1027.32],
+              [1560.3999999999999, 1054.74],
+              [90.36000000000001, 1054.74]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "except that this provision shall not eliminate or limit the liability of a director for:",
+            "bbox": [
+              [88.31999999999994, 1056.76],
+              [861.92, 1055.74],
+              [861.92, 1082.14],
+              [88.31999999999994, 1083.16]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(i) any appropriation, in violation of his or her duties, of any business opportunity of the Corporation;",
+            "bbox": [
+              [253.79999999999995, 1112.6],
+              [1217.24, 1112.6],
+              [1217.24, 1142.04],
+              [253.79999999999995, 1142.04]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(ii) acts or omissions which involve intentional misconduct or a knowing violation of law;",
+            "bbox": [
+              [252.77999999999997, 1170.46],
+              [1106.58, 1170.46],
+              [1105.58, 1199.9],
+              [252.77999999999997, 1198.8799999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(iii)",
+            "bbox": [
+              [255.83999999999992, 1231.36],
+              [315.74, 1230.36],
+              [315.74, 1256.74],
+              [255.83999999999992, 1253.7]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "the types of liability set forth in Section 14-2-832 of the Georgia Business Corporation Code dealing with unlawful distributions of",
+            "bbox": [
+              [319.8, 1229.34],
+              [1563.44, 1229.34],
+              [1563.44, 1255.74],
+              [319.8, 1256.74]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "corporate assets to shareholders; or",
+            "bbox": [
+              [88.31999999999994, 1259.8000000000002],
+              [423.34, 1258.78],
+              [423.34, 1283.14],
+              [88.31999999999994, 1285.18]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(iv)",
+            "bbox": [
+              [251.77999999999997, 1318.68],
+              [292.38, 1316.6399999999999],
+              [292.38, 1342.02],
+              [252.77999999999997, 1342.02]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "any transaction from which the director received an improper personal benefit.",
+            "bbox": [
+              [319.8, 1315.6200000000001],
+              [1065.98, 1315.6200000000001],
+              [1065.98, 1343.04],
+              [319.8, 1343.04]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(b)",
+            "bbox": [
+              [249.74, 1374.5],
+              [281.22, 1374.5],
+              [280.20000000000005, 1398.86],
+              [249.74, 1396.8400000000001]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Neither the amendment or repeal of this Article nor the adoption of any provisions to the Amended and Restated Articles of",
+            "bbox": [
+              [319.8, 1372.48],
+              [1563.44, 1372.48],
+              [1563.44, 1399.8799999999999],
+              [319.8, 1400.9]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "Incorporationinconsistent with this Article shall eliminate or adversely affect any right or protection of any director of the Corporation existing immediately",
+            "bbox": [
+              [87.29999999999995, 1400.9],
+              [1561.4, 1401.92],
+              [1561.4, 1429.3200000000002],
+              [87.29999999999995, 1428.3]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "prior to such amendment or repeal or adoption.",
+            "bbox": [
+              [87.29999999999995, 1431.36],
+              [535.02, 1431.36],
+              [535.02, 1457.74],
+              [87.29999999999995, 1458.76]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(c)",
+            "bbox": [
+              [251.77999999999997, 1489.22],
+              [280.20000000000005, 1489.22],
+              [280.20000000000005, 1512.56],
+              [251.77999999999997, 1513.58]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "If the Code is amended, after this Article becomes effective, to authorize corporate action further eliminating or limiting personal",
+            "bbox": [
+              [320.8, 1487.18],
+              [1563.44, 1487.18],
+              [1563.44, 1515.6000000000001],
+              [320.8, 1513.58]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "liability of directors, then, without further corporate action, the liability of each director of the Corporation shall be eliminated or limited to the fullest extent",
+            "bbox": [
+              [89.34000000000003, 1515.6000000000001],
+              [1562.42, 1515.6000000000001],
+              [1562.42, 1543.02],
+              [89.34000000000003, 1543.02]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "permitted by the Code, as so amended.",
+            "bbox": [
+              [87.29999999999995, 1546.06],
+              [456.84, 1544.04],
+              [456.84, 1569.42],
+              [87.29999999999995, 1571.44]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "ARTICLE FOUR",
+            "bbox": [
+              [731.98, 1599.86],
+              [917.76, 1599.86],
+              [917.76, 1626.26],
+              [731.98, 1626.26]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "INDEMNIFICATION",
+            "bbox": [
+              [710.6600000000001, 1629.3],
+              [940.1, 1628.2800000000002],
+              [940.1, 1655.6999999999998],
+              [710.6600000000001, 1656.72]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(a)",
+            "bbox": [
+              [264.98, 1692.24],
+              [287.29999999999995, 1691.2199999999998],
+              [288.31999999999994, 1714.5800000000002],
+              [265.98, 1714.5800000000002]
+            ],
+            "is_last_in_line": false
+          },
+          {
+            "text": "Each person who is or was a director or officer of the Corporation shall be indemnified by the Corporation to the fullest extent",
+            "bbox": [
+              [316.74, 1689.2],
+              [1561.4, 1689.2],
+              [1561.4, 1716.6000000000001],
+              [316.74, 1716.6000000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "permitted by applicablelaw against those expenses (including attorneys' fees), judgments, fines, penalties, and amounts paid in settlement which are allowed",
+            "bbox": [
+              [86.29999999999995, 1717.6200000000001],
+              [1562.42, 1716.6000000000001],
+              [1562.42, 1744.02],
+              [86.29999999999995, 1745.0399999999997]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "to be paid or reimbursed by the Corporation under the laws of the State of Georgia and which are actually and reasonably incurred in connection with any",
+            "bbox": [
+              [88.31999999999994, 1745.0399999999997],
+              [1561.4, 1745.0399999999997],
+              [1561.4, 1772.4399999999998],
+              [88.31999999999994, 1772.4399999999998]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "threatened, pending, or completed action, suit, or proceeding, whether civil, criminal, administrative, or investigative, in which such person may be involved",
+            "bbox": [
+              [87.29999999999995, 1773.46],
+              [1563.44, 1773.46],
+              [1563.44, 1800.8600000000001],
+              [87.29999999999995, 1801.8799999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "by reason of his being or having been a director or officer of this Corporation.",
+            "bbox": [
+              [87.29999999999995, 1801.8799999999999],
+              [825.38, 1801.8799999999999],
+              [825.38, 1829.28],
+              [87.29999999999995, 1829.28]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(b) Notwithstanding anything contained herein to the contrary, this Article is intended to provide indemnification to each director and",
+            "bbox": [
+              [267.0, 1858.72],
+              [1561.4, 1858.72],
+              [1561.4, 1885.12],
+              [267.0, 1886.1399999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "officer of theCorporation to the fullest extent authorized by the Code, as the same exists or may hereafter be amended (but, in the case of any such amendment,",
+            "bbox": [
+              [89.34000000000003, 1887.16],
+              [1560.3999999999999, 1887.16],
+              [1560.3999999999999, 1914.5600000000002],
+              [89.34000000000003, 1914.5600000000002]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "only to the extent that such amendment permits the Corporation to provide broader rights than said statute permitted the Corporation to provide prior thereto).",
+            "bbox": [
+              [89.34000000000003, 1916.5800000000002],
+              [1558.3600000000001, 1915.58],
+              [1558.3600000000001, 1942.98],
+              [89.34000000000003, 1942.98]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "These Amended and Restated Articles of Incorporation contain amendments requiring shareholder approval and were duly adopted in accordance withthe",
+            "bbox": [
+              [88.31999999999994, 1973.44],
+              [1560.3999999999999, 1973.44],
+              [1560.3999999999999, 2000.8400000000001],
+              [88.31999999999994, 2000.8400000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "applicable provisions of Section 14-2-1003 of the Georgia Business Corporation Code by the Board of Directors of and shareholders of the Corporation on",
+            "bbox": [
+              [90.36000000000001, 2001.86],
+              [1560.3999999999999, 2001.86],
+              [1560.3999999999999, 2029.28],
+              [90.36000000000001, 2029.28]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "November 23, 2015.",
+            "bbox": [
+              [87.29999999999995, 2029.28],
+              [288.31999999999994, 2028.2599999999998],
+              [288.31999999999994, 2054.64],
+              [87.29999999999995, 2055.66]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "IN WITNESS WHEREOF, the undersigned has executed these Amended and Restated Articles of Incorporation the 10th day of February, 2021.",
+            "bbox": [
+              [90.36000000000001, 2086.12],
+              [1450.74, 2086.12],
+              [1450.74, 2114.54],
+              [90.36000000000001, 2113.52]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "MALEBRANCHE GP INC.",
+            "bbox": [
+              [791.88, 2145.0],
+              [1063.96, 2145.0],
+              [1063.96, 2170.38],
+              [791.88, 2170.38]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "4",
+            "bbox": [
+              [857.86, 2186.62],
+              [872.08, 2185.6000000000004],
+              [873.08, 2204.9],
+              [857.86, 2204.9]
+            ],
+            "is_last_in_line": true
+          }
+        ],
+        "page_num": 4,
+        "width": 1653.0,
+        "height": 2339.0,
+        "start_char_num": 21367,
+        "end_char_num": 27162
+      },
+      {
+        "items": [
+          {
+            "text": "By:",
+            "bbox": [
+              [824.0797708289663, 117.72134620979887],
+              [858.5994898004359, 117.58205467822654],
+              [858.6977847514529, 141.94185636261204],
+              [823.1539582853975, 141.0652719964819]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "David B. Green, Secretary",
+            "bbox": [
+              [856.6859520912967, 143.9699908126745],
+              [1109.468009998894, 143.96999081267427],
+              [1109.5745365467942, 170.36977588934883],
+              [856.7924786391968, 170.3697758893486]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "5",
+            "bbox": [
+              [865.9398145661991, 2189.4693030661147],
+              [882.1796823557896, 2189.4037730987698],
+              [881.2616029560056, 2209.7076429322688],
+              [866.02172702538, 2209.7691378031022]
+            ],
+            "is_last_in_line": true
+          }
+        ],
+        "page_num": 5,
+        "width": 1663.0,
+        "height": 2347.0,
+        "start_char_num": 27162,
+        "end_char_num": 27191
+      }
+    ]
+  },
+  "page_num": 5,
+  "is_contract": true,
+  "document_types": [
+    { "document_type": "other_contract", "score": 1.0, "threshold": 0.5 }
+  ],
+  "clauses": [
+    {
+      "hierarchy_level": "zero",
+      "source_text": "AMENDED AND RESTATED\n",
+      "page_num": 1,
+      "start_line_num": 0,
+      "start_char_num": 0,
+      "end_char_num": 20,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": ["title", "foreword"],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "ARTICLES OF INCORPORATION\nOF\nMALEBRANCHE GP INC.\n",
+      "page_num": 1,
+      "start_line_num": 1,
+      "start_char_num": 20,
+      "end_char_num": 66,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "ARTICLE ONE\nNAME\n",
+      "page_num": 1,
+      "start_line_num": 4,
+      "start_char_num": 66,
+      "end_char_num": 81,
+      "is_unreliable": true,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "The name of the Corporation is: MALEBRANCHE GP INC.\nARTICLE TWO\nCAPITALIZATION\nA. Number and Classes of Authorized Stock. The total number of shares of stock which the Corporation is authorized to issue is Forty\nThousand (40,000) shares, divided into two classes as follows:\n",
+      "page_num": 1,
+      "start_line_num": 6,
+      "start_char_num": 81,
+      "end_char_num": 351,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "1. Preferred Stock. Ten Thousand (10,000) shares of preferred stock, par value $0.001 per share, of which Five Thousand (5,000)\nshares shall be designated \"Series A Preferred Stock \" (collectively with any other series of preferred stock as the Board of Directors\nmay in accordance herewith designate, the \"Preferred Stock\"); and\n",
+      "page_num": 1,
+      "start_line_num": 11,
+      "start_char_num": 351,
+      "end_char_num": 678,
+      "is_unreliable": false,
+      "heading": {
+        "title": "Preferred Stock",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "1. ",
+        "label_type": "number",
+        "clause_index": 0,
+        "number_text": "1",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "2. Common Stock. Thirty Thousand (30,000) shares of Common Stock, without par value (collectively, the \"Common Stock\").\nB.Attributes of Preferred Stock option.\n",
+      "page_num": 1,
+      "start_line_num": 14,
+      "start_char_num": 678,
+      "end_char_num": 836,
+      "is_unreliable": false,
+      "heading": {
+        "title": "Common Stock",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "2. ",
+        "label_type": "number",
+        "clause_index": 0,
+        "number_text": "2",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "1. Issuance of Preferred Stock in Series. In deletion to the Series A Preferred Stock designated above, Preferred Stock may be issued from time to time\ninone or more series, each of such series to have such terms as stated or expressed herein and in the resolution or resolutions providing for the issue of\nsuch series adopted by the Board of Directors of the Corporation as hereinafter provided. Authority is hereby expressly granted to the Board of Directors\nfrom time to time to issue Preferred Stock in one or more series, and in connection with the creation of any such series, by resolution or resolutions\nproviding for the issuance of the shares thereof, to determine and fix the number of shares of such series and such designations, preferences and relative,\nparticipating, optional or other special rights, and qualifications, limitations or restrictions thereof, voting rights, dividend rights, conversion rights,\nredemption privileges and liquidation preferences, as shall be stated and expressed in such resolutions, all to the full extent now or hereafter permitted by\nthe Georgia Business Corporation Code. Without limiting the generality of the foregoing, the resolutions providing for issuance of any series of Preferred\nStock may provide that such series or class shall be superior or rank equally or be junior to the Preferred Stock of any other series or class to the extent\npermitted by law, and subject to the provisions of this Certificate.\n",
+      "page_num": 1,
+      "start_line_num": 16,
+      "start_char_num": 836,
+      "end_char_num": 2290,
+      "is_unreliable": false,
+      "heading": {
+        "title": "Issuance of Preferred Stock in Series",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "1. ",
+        "label_type": "number",
+        "clause_index": 0,
+        "number_text": "1",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "2. Series A Preferred Stock. The rights, preferences, privileges and restrictions granted to and imposed on the Series A Preferred Stock are as set forthbelow:\nGeneral. On any matter presented to the stockholders of the Corporation for their action or consideration at any meeting of\nstockholders of the Corporation (or by written consent of stockholders in lieu of meeting), each holder of outstanding shares of Series A Preferred\nStock shall be entitled to cast the number of votes equal to the number of whole shares of Common Stock into which the shares of Series A Preferred\nStock held by such holder are convertible as of the record date for determining stockholders entitled to vote on such matter. Except as provided by\nlaw or by the other provisions of this Certificate, holders of each series of Series A Preferred Stock shall vote together with the holders of Common\nStock as a single class. Holders of Series A Preferred Stock are not entitled to cumulative voting.\n(ii) Consent for Certain Amendments. The Corporation shall not amend or modify the Certificate of Incorporation in a manner that\nmaterially andadversely affects the terms, powers, preferences or special rights of the Series A Preferred Stock, except with the affirmative vote or\nconsent of the Series A Majority. In addition, no such amendment or modification may, without the consent of each holder of Series A Preferred\nStock affected thereby, (x) adversely affect any of the conversion features of such series; or (y) reduce the percentage of outstanding shares of such\nseries necessary to modify or amend the terms thereof or to grant waivers thereof.\n(iii) Conversion Price Adjustments for Splits and Certain Dilutive Issuances. The Conversion Price applicable to the Series A Preferred\nwill be subject toadjustment from time to time as follows:\n(a) Dividends. From and after the date of the issuance of any shares of Series A Preferred Stock, dividends at the rate per annum of\n$50.00 per share shallaccrue on such shares of Series A Preferred Stock (subject to appropriate adjustment in the event of any stock dividend, stock\nsplit, combination or other similar recapitalization with respect to the Series A Preferred Stock) (the \"Accruing Dividends\"). Accruing Dividends\nshall accrue from day to day, whether or not declared, and shall be cumulative. Provided, that there are funds lawfully available therefor, Accruing\nDividends shall be paid on the first anniversary of the Series A Original Issue Date and every three months thereafter. At the election of each holder\nof Series A Preferred Stock, Accruing Dividends may be paid in cash or in shares of Series A Preferred Stock.\n(b) Liquidation. Upon any liquidation, dissolution or winding up of the Corporation, whether voluntary or involuntary, holders of Series\nA Preferred Stockshall be entitled to share ratably with the holders of the Common Stock in the remaining assets of the Corporation available for\ndistribution to its stockholders.\n(c) Optional Conversion.\n(i) Optional Conversion. Each outstanding share of Series A Preferred Stock shall be convertible at any time, at the option of the\nholder thereof, into anumber of fully paid and nonassessable shares of Common Stock as is determined by dividing the Series A Original Issue\n1\nPrice by the Series A Conversion Price for such series as in effect at the time of conversion (each, an \"Optional Conversion\"). The Series A\nConversion Price and the Series A Conversion Ratio are subject to possible adjustment as provided in subsection (e) below.\n(ii) Other Provisions regarding Optional Conversion.\n(A) No fractional shares shall be issued upon the conversion of any shares of Series A Preferred Stock. All shares of Common Stock\n(including fractionsthereof) issuable upon conversion of more than one share of Series A Preferred Stock by a holder thereof shall be aggregated for\npurposes of determining whether conversion would result in the issuance of any fractional share. If, after the aforementioned aggregation, the\nconversion would result in the issuance of a fraction of a share of Common Stock, the Corporation shall, in lieu of issuing any fractional share, pay\nthe holder otherwise entitled to such fraction a sum in cash equal to the Fair Market Value of such fraction on the date of conversion (as determined\nin good faith by the Board).\n(B) An Optional Conversion may be effected by surrender to the Corporation at the principal office of the Corporation of the certificate\nfor the series ofSeries A Preferred Stock to be converted accompanied by a written notice from the holder stating that such holder elects to convert\nall or a specified number of such shares (which may be fractional shares) in accordance with the provisions of this Section B.2(d) and specifying\nthe name or names in which such holder wishes the certificate or certificates for shares of Common Stock to be issued.\n(C) In case the written notice specifying the name or names in which a holder of shares of Series A Preferred Stock converted in\naccordance with thisSection B.2(d) wishes the certificate or certificates for shares of Common Stock to be issued shall specify a name or names\nother than that of such holder, such notice shall be accompanied by payment of all transfer taxes payable upon the issuance of shares of Common\nStock in such name or names. As promptly as practicable, and in any event within five (5) Business Days after the surrender of such certificate or\ncertificates and the receipt of such notice relating thereto and, if applicable, payment of all transfer taxes (or the demonstration to the satisfaction of\nthe Corporation that such taxes have been paid), the Corporation shall deliver or cause to be delivered (x) certificates representing the number of\nvalidly issued, fully paid and nonassessable full shares of Common Stock to which the holder of shares of Series A Preferred Stock being converted\nshall be entitled, and (y) if less than the full number of shares of Series A Preferred Stock evidenced by the surrendered certificate or certificates is\nbeing converted, a new certificate or certificates, of like tenor, for the number of shares of Series A Preferred Stock evidenced by such surrendered\ncertificate or certificates less the number of shares thereof being converted.\n(D) In the case of an Optional Conversion, such conversion shall be deemed to have been made at the close of business on the date of\ngiving the written\nnotice referred to in the first sentence of Section B.2.(d)(ii)(B) above and of such surrender of the certificate or certificates representing the shares of Series\nA Preferred Stock to be converted so that the rights of the holder thereof as to the shares being converted shall cease except for the right to receive shares of\nCommon Stock in accordance herewith, and the Person entitled to receive the shares of Common Stock shall be treated for all purposes as having become\nthe record holder of such shares of Common Stock at such time.\n(iii) Reservation of Common Stock. The Corporation shall at all times reserve, and keep available for issuance upon the conversion of the\nSeries A Preferred Stock, such number of its authorized but unissued shares of Common Stock as will from time to time be sufficient to permit the conversion\nof all outstanding shares of Series A Preferred Stock, and shall take all action required to increase the authorized number of shares of Common Stock if\nnecessary to permit the conversion of all outstanding shares of Series A Preferred Stock.\n(d) Conversion Price Adjustments for Splits and Certain Dilutive Issuances. The Conversion Price applicable to the Series A Preferred\nwill be subject toadjustment from time to time as follows:\n(i) Adjustments for Stock Dividends, Distributions, Reclassifications, Etc. If the Corporation shall, at any time or from time to time\nafter the Series AOriginal Issue Date, subdivide the Common Stock (or other shares of capital stock convertible into Common Stock), by stock split or\notherwise, or combine the Common Stock, or issue additional shares of Common Stock (or other shares of capital stock convertible into Common Stock) in\npayment of a stock dividend on the Common Stock, the Series A Conversion Price shall forthwith be proportionately decreased in the case of a subdivision\nor stock dividend, or proportionately increased in the case of a combination, with the effect that the Series A Conversion Ratio shall forthwith be\nproportionately increased in the case of a subdivision or stock dividend, or proportionately decreased in the case of a combination.\nFull Ratchet Protection. If at any time after the date of filing of these Articles (x) the Corporation shall issue shares of Common\nStock (or other sharesof capital stock convertible into Common Stock), and (y) the consideration per share payable to the Corporation for the Common Stock\n(or other share of capital stock convertible into Common Stock) reflects a pre-money imputed equity value of the Corporation of less than $5.5 million, then\nin each such case (subject to Section B.2(e)(iv)), the Series A Conversion Price, shall be reduced to the lowest price per share at which any such share of\nCommon Stock (or other share of capital stock convertible into Common Stock) has been so issued or sold.\n(iii) Adjustments Only After Stock Issued; Determination of Consideration.\n(A) The mere issuance of options, warrants or other securities (other than capital stock) convertible into capital stock of the Corporation\nshall not requirean adjustment hereunder until such securities are exercised or converted into Common Stock capital stock of the Corporation (or capital\nstock convertible into Common Stock of the Corporation).\n(B) For purposes of Section B.2(e)(ii), the reference to the consideration received by the Corporation for an issuance of capital stock\nconvertible intoCommon Stock shall mean the aggregate of the consideration received for the issuance of such capital stock, plus the consideration that will\nbe payable to the Corporation upon its conversion into Common Stock.\n(iv) Exceptions. The provisions of Section B.2(e)(ii) shall not apply to the following issuances:\n(A)any issuance covered by Section B.2(e)(i);\n(B)any stock options granted to employees or directors of the Corporation or the issuance of shares upon exercise thereof;\n(C)any issuance as consideration for mergers or acquisitions;\n2\n(D)any issuance in connection with the formation of joint ventures, strategic business relationships, or corporate partnering transactions;\nor\n(E) any issuance of shares in an initial public offering.\n(v) Effectiveness. Any adjustment made pursuant to Section B.2(e)(ii) above shall be made on the next Business Day following the date on\nwhich anysuch issuance is made and shall be effective retroactively immediately after the close of business on such date.\n(e) Other Provisions.\n(i) Certain Distributions. In the event the Corporation shall declare a distribution payable in securities of other Persons, evidences of\nindebtedness issuedby the Corporation or other Persons, assets (excluding cash dividends) or options or rights not referred to in this Section B.2 to the holders\nof Common Stock, then, in each such case for the purpose of this Section B.2, the holders of the Series A Preferred Stock shall be entitled to a proportionate\nshare of any such distribution as though they were the holders of the number of shares of Common Stock of the Corporation into which such shares of Series\nA Preferred Stock are convertible as of the record date fixed for the determination of the holders of Common Stock of the Corporation entitled to receive\nsuch distribution.\n(ii) Recapitalization. If at any time or from time to time there shall be a recapitalization of the Common Stock (other than a subdivision,\ncombination ormerger or sale of assets transaction provided for elsewhere in this Section B.2), provision shall be made so that the holders of the Series A\nPreferred Stock shall thereafter be entitled to receive upon conversion of their Series A Preferred Stock the number of shares of stock or other securities or\nproperty of the Corporation or otherwise, to which a holder of the number of shares of Common Stock deliverable upon conversion would have been entitled\non such recapitalization. In any such case, appropriate adjustment shall be made in the application of the provisions of this Section B.2 with respect to the\nrights of the holders of the Series A Preferred Stock after the recapitalization to the end that the provisions of this Section B.2 (including adjustment of the\napplicable Series A Conversion Price for the Series A Preferred Stock then in effect and the number of shares issuable upon conversion of the Series A\nPreferred Stock) shall be applicable after that event as nearly equivalent as may be practicable.\n(iii) No Impairment. The Corporation will not, by amendment of its Certificate or through any reorganization, recapitalization, transfer\nof assets, consolidation, merger, dissolution, issue or sale of securities or any other voluntary action, avoid or seek to avoid the observance or performance\nof any of the terms to be observed or performed hereunder by the Corporation, but will at all times in good faith assist in the carrying out of all the provisions\nof this Section B.2 and in the taking of all such action as may be reasonably necessary or appropriate in order to protect the conversion rights of the holders\nof the Series A Preferred Stock against impairment.\n(iv) Reorganization. If any capital reorganization or reclassification of the capital stock of the Corporation, or consolidation or merger\nof the Corporationwith and into another corporation shall be effected while any shares of Preferred Stock are outstanding in such a manner that holders of\nshares of Common Stock shall be entitled to receive stock, securities or assets with respect to or in exchange for Common Stock, then, as a condition of such\nreorganization or reclassification, consolidation or merger, lawful and adequate provision shall be made whereby each holder of Series A Preferred Stock\nshall thereafter have the right to receive upon the basis and upon the terms and conditions specified herein and in lieu of the shares of Common Stock\nimmediately theretofore receivable upon conversion of Series A Preferred Stock, such shares of stock, securities or assets as may be issued or payable with\nrespect to or in exchange for a number of outstanding shares of such Common Stock equal to the number of shares of such Common Stock immediately\ntheretofore so receivable had such reorganization or reclassification, consolidation, merger or sale not taken place, and in such case appropriate provision\nshall be made with respect to the rights and interests of the holders of Series A Preferred Stock to the end that the provisions hereof (including, without\nlimitation, provisions for adjustment of the Series A Conversion Price and of the number of shares of Common Stock issuable upon conversion thereof) shall\nthereafter be applicable, as nearly as may be reasonably possible, in relation to any shares of stock, securities or assets thereafter deliverable upon the\nconversion of such shares of Series A Preferred Stock. Prior to or simultaneously with the consummation or any such consolidation or merger of the\nCorporation, the survivor or successor corporation (if other than the Corporation) resulting from such consolidation or merger shall assume by written\ninstrument executed and mailed or delivered to each holder of Series A Preferred Stock, the obligation to deliver to such holders of Series A Preferred Stock\nsuch shares of stock, securities or assets as, in accordance with the foregoing provisions, such holder of Series A Preferred Stock may be entitled to receive,\nand containing the express assumption of such successor corporation of the due and punctual performance and observance of every provision of this\nCertificate (as such may be amended from time to time) to be performed and observed by the Corporation and of all liabilities and obligations of the\nCorporation hereunder with respect to the Series A Preferred Stock.\n(v) Certificate of Adjustment. Upon the occurrence of each adjustment or readjustment of the applicable Series A Conversion Price\npursuant to this Section B.2, the Corporation, at its expense, shall promptly compute such adjustment or readjustment in accordance with the terms hereof\nand prepare and furnish to each holder of Series A Preferred Stock so affected a statement, signed by its chief financial officer or other appropriate officer,\nsetting forth such adjustment or readjustment and showing in detail the facts upon which such adjustment or readjustment is based. The Corporation shall,\nupon the written request at any time of any holder of Series A Preferred Stock, furnish or cause to be furnished to such holder a like certificate setting forth\n(A) such adjustment and readjustment, (B) Series A Conversion at the time in effect, and (C) the number of shares of Common Stock and the amount, if any,\nof other property which at the time would be received upon the conversion of a share of Series A Preferred Stock held by such holders.\n(vi) Notice of Certain Corporate Action. If any time or from time to time the Corporation shall pay any stock dividend or make any other\nnon-cashdistribution to the holders of its Common Stock, or shall offer for subscription pro rata to the holders of its Common Stock any additional shares of\nstock of any class or any other right, or there shall be any capital reorganization or reclassification of the Common Stock of the Corporation or consolidation\nor merger of the Corporation with or into another corporation, or any sale or conveyance to another corporation of the property of the Corporation as an\nentirety or substantially as an entirety, or there shall be a voluntary or involuntary dissolution, liquidation or winding up of the Corporation, then, in any one\nor more of said cases, the Corporation shall give at least 20 days' prior written notice to the registered holders of Series A Preferred Stock at the addresses\nof each as shown on the books of the Corporation as of the date on which (i) the books of the Corporation shall close or a record shall be taken for such stock\ndividend, distribution or subscription rights or (ii) such reorganization, reclassification, consolidation, merger, sale or conveyance, dissolution, liquidation\nor winding up shall take place, as the case may be, provided that in the case of any liquidation to which this Section B.2(f)(vi) applies the Corporation shall\ngive at least 30 days' prior written notice as aforesaid. Such notice shall also specify the date as of which the holders of the Common Stock of record shall\nparticipate in said dividend, distribution or subscription rights or shall be entitled to exchange their Common Stock for securities or other property deliverable\nupon such reorganization, reclassification, consolidation, merger, sale or conveyance or participate in such dissolution, liquidation or winding up, as the case\nmay be. Notwithstanding the foregoing, failure to give such notice shall not invalidate any action so taken.\n3\n(vii) Enforcement. Any registered holder of Series A Preferred Stock may proceed to protect and enforce its rights by any available\nremedy by proceedingat law or in equity to protect and enforce any such rights, whether for the specific enforcement of any provision in this Certificate or\nin aid of the exercise of any power granted herein, or to enforce any other proper remedy.\n(viii) No Reissuance of Preferred Stock. No Series A Preferred Stock acquired by the Corporation by reason of redemption, purchase, or\notherwise shall bereissued, and all such shares shall be cancelled, retired and eliminated from the shares which the Corporation shall be authorized to issue.\n(ix) Notices. All notices to the Corporation or to the holders of the Series A Preferred Stock permitted hereunder shall be in writing\npersonally delivered orsent by first class mail, postage prepaid, addressed (A) in the case of a notice to the Corporation, to its principal executive offices,\nattention of the Chief Executive Officer (or to such other address as the Corporation shall designate by notice thereof given to the holders of the Series A\nPreferred Stock) or (B) in the case of a notice to the holders of the Series A Preferred Stock, to their respective addresses appearing on the books of the\nCorporation.\n(f) Redemption of Series A Preferred Stock. At any time following the first anniversary of the Series A Original Issuance Date, the\nCompany may,provided that the value of the Corporation exceeds $6 million as determined by the Board of Directors of the Company, redeem all, but not\nless than all, of the outstanding shares of Series A Preferred Stock on ten (10) days prior written notice to the holders thereof, in consideration for payment\nby the Corporation to the holders of $500 per share of Series A Preferred Stock plus all Accruing Dividends then accrued.\nC.Attributes of Common Stock.\n",
+      "page_num": 1,
+      "start_line_num": 26,
+      "start_char_num": 2290,
+      "end_char_num": 23240,
+      "is_unreliable": false,
+      "heading": {
+        "title": "Series A Preferred Stock",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "2. ",
+        "label_type": "number",
+        "clause_index": 0,
+        "number_text": "2",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "1. Voting. The holders of Common Stock are entitled to one vote for each share held. There shall be no cumulative voting.\n",
+      "page_num": 4,
+      "start_line_num": 190,
+      "start_char_num": 23240,
+      "end_char_num": 23361,
+      "is_unreliable": false,
+      "heading": {
+        "title": "Voting",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "1. ",
+        "label_type": "number",
+        "clause_index": 0,
+        "number_text": "1",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "2. Dividends. Dividends may be declared and paid on the Common Stock from funds lawfully available therefor if, as and when determined\nby the Boardof Directors in their sole discretion, subject to provisions of law, any provision of this Certificate, and subject to the relative\nrights and preferences of any shares of Series A Preferred Stock authorized and issued hereunder.\n",
+      "page_num": 4,
+      "start_line_num": 191,
+      "start_char_num": 23361,
+      "end_char_num": 23735,
+      "is_unreliable": false,
+      "heading": {
+        "title": "Dividends",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "2. ",
+        "label_type": "number",
+        "clause_index": 0,
+        "number_text": "2",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "3. Liquidation. Upon any liquidation, dissolution or winding up of the Corporation, whether voluntary or involuntary, holders of Common\nStock shall be entitled to share ratably in the remaining assets of the Corporation available for distribution to its stockholders.\nARTICLE THREE\nDIRECTOR'S LIABILITY\n(a) To the fullest extent permitted by applicable law, no director of the Corporation shall have any liability to the Corporation or its\nshareholders formonetary damages for any action or failure to take action, including, without limitation, for breach of duty of care or other duty as a director,\nexcept that this provision shall not eliminate or limit the liability of a director for:\n(i) any appropriation, in violation of his or her duties, of any business opportunity of the Corporation;\n(ii) acts or omissions which involve intentional misconduct or a knowing violation of law;\n(iii) the types of liability set forth in Section 14-2-832 of the Georgia Business Corporation Code dealing with unlawful distributions of\ncorporate assets to shareholders; or\n(iv) any transaction from which the director received an improper personal benefit.\n(b) Neither the amendment or repeal of this Article nor the adoption of any provisions to the Amended and Restated Articles of\nIncorporationinconsistent with this Article shall eliminate or adversely affect any right or protection of any director of the Corporation existing immediately\nprior to such amendment or repeal or adoption.\n(c) If the Code is amended, after this Article becomes effective, to authorize corporate action further eliminating or limiting personal\nliability of directors, then, without further corporate action, the liability of each director of the Corporation shall be eliminated or limited to the fullest extent\npermitted by the Code, as so amended.\nARTICLE FOUR\nINDEMNIFICATION\n(a) Each person who is or was a director or officer of the Corporation shall be indemnified by the Corporation to the fullest extent\npermitted by applicablelaw against those expenses (including attorneys' fees), judgments, fines, penalties, and amounts paid in settlement which are allowed\nto be paid or reimbursed by the Corporation under the laws of the State of Georgia and which are actually and reasonably incurred in connection with any\nthreatened, pending, or completed action, suit, or proceeding, whether civil, criminal, administrative, or investigative, in which such person may be involved\nby reason of his being or having been a director or officer of this Corporation.\n(b) Notwithstanding anything contained herein to the contrary, this Article is intended to provide indemnification to each director and\nofficer of theCorporation to the fullest extent authorized by the Code, as the same exists or may hereafter be amended (but, in the case of any such amendment,\n",
+      "page_num": 4,
+      "start_line_num": 194,
+      "start_char_num": 23735,
+      "end_char_num": 26535,
+      "is_unreliable": false,
+      "heading": {
+        "title": "Liquidation",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "3. ",
+        "label_type": "number",
+        "clause_index": 0,
+        "number_text": "3",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "only to the extent that such amendment permits the Corporation to provide broader rights than said statute permitted the Corporation to provide prior thereto).\nThese Amended and Restated Articles of Incorporation contain amendments requiring shareholder approval and were duly adopted in accordance withthe\napplicable provisions of Section 14-2-1003 of the Georgia Business Corporation Code by the Board of Directors of and shareholders of the Corporation on\nNovember 23, 2015.\nIN WITNESS WHEREOF, the undersigned has executed these Amended and Restated Articles of Incorporation the 10th day of February, 2021.\nMALEBRANCHE GP INC.\n",
+      "page_num": 4,
+      "start_line_num": 221,
+      "start_char_num": 26535,
+      "end_char_num": 27161,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "4\nBy:\n",
+      "page_num": 4,
+      "start_line_num": 227,
+      "start_char_num": 27161,
+      "end_char_num": 27165,
+      "is_unreliable": true,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "David B. Green, Secretary\n5\n",
+      "page_num": 5,
+      "start_line_num": 229,
+      "start_char_num": 27165,
+      "end_char_num": 27191,
+      "is_unreliable": true,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_type": "effective_date",
+      "spans": [
+        {
+          "source_text": " 14-2-83",
+          "page_num": 4,
+          "start_char_num": null,
+          "end_char_num": null
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "annotation_type": "transaction_amount",
+      "spans": [
+        {
+          "source_text": "$500",
+          "page_num": 4,
+          "start_char_num": null,
+          "end_char_num": null
+        }
+      ],
+      "metadata": {
+        "price": 500,
+        "currency": "usd",
+        "transaction_amount_type": "amount_per_unit",
+        "consumption_tax_type": "other"
+      }
+    },
+    {
+      "annotation_type": "transaction_amount",
+      "spans": [
+        {
+          "source_text": "$50",
+          "page_num": 1,
+          "start_char_num": null,
+          "end_char_num": null
+        }
+      ],
+      "metadata": {
+        "price": 50,
+        "currency": "usd",
+        "transaction_amount_type": "amount_per_unit",
+        "consumption_tax_type": "other"
+      }
+    }
+  ],
+  "word_comment_threads": []
+}

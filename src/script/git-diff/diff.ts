@@ -20,7 +20,7 @@ export const diff: Diff = async ({ basePath, targetPath, outPath }) => {
 
   const diffs = []
   for (let i = 0; i < pageLength; i++) {
-    diffs.push(await getStringDiff(baseFile[i], targetFile[i]))
+    diffs.push(await getStringDiff(baseFile[i] || "", targetFile[i] || ""))
   }
   const diffString = diffs.join("")
 

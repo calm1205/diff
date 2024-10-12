@@ -1,0 +1,1564 @@
+{
+  "id": 2321,
+  "tenant_id": "local-1",
+  "normalized_file_type": "docx",
+  "file_name_label": null,
+  "model_version": {
+    "language": "/app/models/language_detection_fasttext/lid.176.bin",
+    "title": "/app/models/20220119_crftitle_model.pkl",
+    "contract": "/app/models/20231024_other_contract_booster.pkl",
+    "document_type": [
+      {
+        "agreement_business_transfer": "/app/models/20231024_agreement_business_transfer_booster.pkl"
+      },
+      {
+        "agreement_investment": "/app/models/20231024_agreement_investment_booster.pkl"
+      },
+      {
+        "agreement_joint_research": "/app/models/20231024_agreement_joint_research_booster.pkl"
+      },
+      {
+        "agreement_lease_real_property": "/app/models/20231024_agreement_lease_real_property_booster.pkl"
+      },
+      {
+        "agreement_license": "/app/models/20231024_agreement_license_booster.pkl"
+      },
+      { "agreement_loan": "/app/models/20231024_agreement_loan_booster.pkl" },
+      { "agreement_ma": "/app/models/20231024_agreement_ma_booster.pkl" },
+      {
+        "agreement_management": "/app/models/20231024_agreement_management_booster.pkl"
+      },
+      {
+        "agreement_merger": "/app/models/20231024_agreement_merger_booster.pkl"
+      },
+      { "agreement_nda": "/app/models/20231024_agreement_nda_booster.pkl" },
+      {
+        "agreement_service": "/app/models/20231024_agreement_service_booster.pkl"
+      },
+      {
+        "agreement_share_transfer": "/app/models/20231024_agreement_share_transfer_booster.pkl"
+      },
+      {
+        "agreement_shareholders": "/app/models/20231024_agreement_shareholders_booster.pkl"
+      },
+      { "agreement_split": "/app/models/20231024_agreement_split_booster.pkl" },
+      {
+        "agreement_standard_form": "/app/models/20231024_agreement_standard_form_booster.pkl"
+      },
+      {
+        "agreement_syndicated_loan": "/app/models/20231024_agreement_syndicated_loan_booster.pkl"
+      },
+      {
+        "master_agreement": "/app/models/20231024_master_agreement_booster.pkl"
+      }
+    ],
+    "clause": {
+      "first": "/app/models/20200803_crfchunker_firstmodel.pkl",
+      "second": "/app/models/20200803_crfchunker_secondmodel.pkl"
+    },
+    "clause_tag_annotation_type": [
+      { "exclusivity": "/app/models/20221221_exclusivity_booster.pkl" },
+      { "non_compete": "/app/models/20221221_non_compete_booster.pkl" },
+      {
+        "termination_right": "/app/models/20230110_termination_right_booster.pkl"
+      }
+    ],
+    "coc_annotation_type": [],
+    "annotation": [
+      { "execution_date": "/app/models/20220208_xgbexecdate_model.bin" },
+      { "party": "/app/models/20240109_ja_party_debertav2" }
+    ]
+  },
+  "language": "ja",
+  "language_for_search": "ja",
+  "title_source_text": "商標及び著作物使用許諾契約書",
+  "title_description": "商標及び著作物使用許諾契約書",
+  "content": {
+    "pages": [
+      {
+        "items": [
+          {
+            "text": "商標及び著作物使用許諾契約書",
+            "bbox": [
+              [625.62, 229.14],
+              [1034.26, 228.14],
+              [1034.26, 260.5799999999999],
+              [625.62, 260.5799999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "A テクノロジー株式会社(以下、「甲」という。)と、B 商事株式会社(以下、「乙」という。)とは、",
+            "bbox": [
+              [143.98000000000002, 310.26],
+              [1516.9, 310.26],
+              [1516.9, 344.74],
+              [143.98000000000002, 344.74]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "甲が権利を有する「〇〇〇〇」に関わる商標と「〇〇〇〇」に関わる著作物とに関する使用許諾契約",
+            "bbox": [
+              [150.05999999999995, 360.96000000000004],
+              [1460.1200000000001, 360.96000000000004],
+              [1460.1200000000001, 394.4200000000001],
+              [150.05999999999995, 394.4200000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(以下「本契約」という)を、次のとおり締結する。",
+            "bbox": [
+              [165.27999999999997, 409.64],
+              [831.46, 410.64],
+              [831.46, 445.12],
+              [165.27999999999997, 444.0999999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "第1条(定義)",
+            "bbox": [
+              [147.01999999999998, 511.02],
+              [341.7, 511.02],
+              [341.7, 543.48],
+              [147.01999999999998, 543.48]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "本契約における用語を次の各号のとおり定義する。",
+            "bbox": [
+              [149.05999999999995, 561.72],
+              [804.08, 561.72],
+              [804.08, 595.1800000000001],
+              [149.05999999999995, 594.16]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(1)「本件商標」とは、甲が権利を有する「○○○○」に関わるすべての商標をいう。",
+            "bbox": [
+              [165.27999999999997, 610.4],
+              [1301.9399999999998, 610.4],
+              [1301.9399999999998, 644.86],
+              [165.27999999999997, 643.86]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(2)「本件著作物」とは、甲が権利を有する「○○○○」に関わるすべての著作物をいう。",
+            "bbox": [
+              [166.29999999999995, 659.0600000000001],
+              [1358.72, 659.0600000000001],
+              [1358.72, 694.5400000000001],
+              [166.29999999999995, 694.5400000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "第2条(使用許諾)",
+            "bbox": [
+              [149.05999999999995, 761.46],
+              [392.4, 760.4599999999999],
+              [392.4, 794.9200000000001],
+              [149.05999999999995, 795.9399999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "1. 甲は、乙に対し、本件商標及び本件著作物を甲が承認した商品に使用するために本契約に従って使",
+            "bbox": [
+              [155.14, 810.14],
+              [1491.56, 810.14],
+              [1491.56, 843.6],
+              [155.14, 844.6]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "用することを許諾するものとする。",
+            "bbox": [
+              [148.03999999999996, 860.8399999999999],
+              [600.28, 861.8399999999999],
+              [600.28, 894.3],
+              [148.03999999999996, 893.28]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "2. 甲は、乙以外の第三者に本件商標及び本件著作物の使用を許諾してはならない。ただし、乙の承諾",
+            "bbox": [
+              [154.12, 910.52],
+              [1491.56, 910.52],
+              [1491.56, 943.98],
+              [154.12, 942.96]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "がある場合には、この限りでない。",
+            "bbox": [
+              [147.01999999999998, 960.2],
+              [597.24, 961.2199999999999],
+              [597.24, 994.68],
+              [147.01999999999998, 994.68]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "第3条(競業避止義務)",
+            "bbox": [
+              [148.03999999999996, 1060.58],
+              [451.22, 1060.58],
+              [451.22, 1093.02],
+              [148.03999999999996, 1093.02]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "1. 乙は、本契約の有効期間中、事前に甲の書面による承諾を得た場合を除き、甲と競業する第三者の",
+            "bbox": [
+              [156.15999999999997, 1110.26],
+              [1488.52, 1109.24],
+              [1488.52, 1143.72],
+              [156.15999999999997, 1143.72]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "保有する商標及び著作物を利用した商品を取り扱ってはならない。",
+            "bbox": [
+              [150.05999999999995, 1160.96],
+              [1007.9000000000001, 1160.96],
+              [1007.9000000000001, 1194.42],
+              [150.05999999999995, 1193.3999999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "2. 乙は、第三者の保有する商標及び著作物を利用した商品を取り扱おうとしている場合において、当",
+            "bbox": [
+              [154.12, 1209.62],
+              [1490.54, 1209.62],
+              [1490.54, 1244.1000000000001],
+              [154.12, 1244.1000000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "該第三者が甲の事業と競業するか否かにつき疑義があるときは、甲に対し事前に通知し、甲の見解を求",
+            "bbox": [
+              [148.03999999999996, 1259.3],
+              [1492.5800000000002, 1259.3],
+              [1492.5800000000002, 1293.78],
+              [148.03999999999996, 1293.78]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "めなければならない。",
+            "bbox": [
+              [150.05999999999995, 1310.0],
+              [420.8, 1310.0],
+              [420.8, 1344.48],
+              [150.05999999999995, 1344.48]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "第4条(許諾された使用の対価)",
+            "bbox": [
+              [148.03999999999996, 1409.3799999999999],
+              [568.8399999999999, 1409.3799999999999],
+              [568.8399999999999, 1443.84],
+              [148.03999999999996, 1443.84]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "甲が乙に許諾することに対して、乙は次の各号にしたがってその対価を支払う。",
+            "bbox": [
+              [148.03999999999996, 1460.06],
+              [1181.28, 1460.06],
+              [1181.28, 1493.52],
+              [148.03999999999996, 1492.52]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(1)本件商標及び本件著作物を使用する商品の税抜き希望小売価格の〇〇%を製造数量に乗じた金額",
+            "bbox": [
+              [165.27999999999997, 1510.76],
+              [1492.5800000000002, 1510.76],
+              [1492.5800000000002, 1543.22],
+              [165.27999999999997, 1543.22]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "を対価とする。",
+            "bbox": [
+              [151.07999999999993, 1561.46],
+              [335.62, 1561.46],
+              [335.62, 1592.9],
+              [151.07999999999993, 1592.9]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(2)前号の対価は、各年度の総額を各年度末から90日以内に、乙から甲に対して支払うものとする。",
+            "bbox": [
+              [164.26, 1610.14],
+              [1504.74, 1609.1200000000001],
+              [1504.74, 1642.58],
+              [164.26, 1643.6]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "第5条(販売)",
+            "bbox": [
+              [148.03999999999996, 1710.52],
+              [342.72, 1710.52],
+              [342.72, 1742.96],
+              [148.03999999999996, 1742.96]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "1. 本件商標及び本件著作物を使用した商品の販売において、乙は甲の定める指針に従わなければなら",
+            "bbox": [
+              [155.14, 1760.2],
+              [1489.52, 1760.2],
+              [1489.52, 1792.64],
+              [155.14, 1793.6599999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "ない。",
+            "bbox": [
+              [151.07999999999993, 1811.9],
+              [220.03999999999996, 1813.9399999999998],
+              [220.03999999999996, 1842.3200000000002],
+              [151.07999999999993, 1839.2800000000002]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "2. 本件商標及び本件著作物を使用した商品の販売は、日本国内に限定する。",
+            "bbox": [
+              [155.14, 1859.5600000000002],
+              [1154.92, 1859.5600000000002],
+              [1154.92, 1893.02],
+              [155.14, 1893.02]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "第7条(契約有効期間)",
+            "bbox": [
+              [148.03999999999996, 1959.9399999999998],
+              [453.24, 1959.9399999999998],
+              [453.24, 1992.38],
+              [148.03999999999996, 1992.38]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "本契約は、平成〇〇年〇〇月〇〇日から平成〇〇年〇〇月〇〇日まで有効とする。但し期間満了の〇〇",
+            "bbox": [
+              [148.03999999999996, 2009.62],
+              [1491.56, 2009.62],
+              [1491.56, 2043.0800000000002],
+              [148.03999999999996, 2043.0800000000002]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "か月前までに甲乙いずれからも別段の意思表示ないときはさらに1年間有効とする。ただし、第8条又",
+            "bbox": [
+              [147.01999999999998, 2058.2999999999997],
+              [1490.54, 2058.2999999999997],
+              [1490.54, 2092.76],
+              [147.01999999999998, 2092.76]
+            ],
+            "is_last_in_line": true
+          }
+        ],
+        "page_num": 1,
+        "width": 1654.0,
+        "height": 2339.0,
+        "start_char_num": 0,
+        "end_char_num": 917
+      },
+      {
+        "items": [
+          {
+            "text": "は第10条の規定により早期に終了した場合はこの限りではない。",
+            "bbox": [
+              [148.03999999999996, 228.14],
+              [1007.9000000000001, 227.12],
+              [1007.9000000000001, 260.5799999999999],
+              [148.03999999999996, 261.6]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "第8条(使用の終了)",
+            "bbox": [
+              [148.03999999999996, 328.52],
+              [422.82, 328.52],
+              [422.82, 360.96000000000004],
+              [148.03999999999996, 361.98]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "乙は、本件商標及び本件著作物の使用を終了する場合、速やかにその旨を甲に書面で通知し、その時点",
+            "bbox": [
+              [150.05999999999995, 377.18000000000006],
+              [1491.56, 377.18000000000006],
+              [1491.56, 411.6600000000001],
+              [150.05999999999995, 411.6600000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "をもって本契約は終了する。",
+            "bbox": [
+              [149.05999999999995, 426.86],
+              [513.0799999999999, 426.86],
+              [513.0799999999999, 460.31999999999994],
+              [149.05999999999995, 460.31999999999994]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "第9条(権利の保全)",
+            "bbox": [
+              [147.01999999999998, 528.26],
+              [422.82, 528.26],
+              [422.82, 560.7],
+              [147.01999999999998, 561.72]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "1. 乙は、甲が本件商標及び本件著作物の権利保全を行うに際し、誠意をもってこれに協力する。",
+            "bbox": [
+              [155.14, 577.9399999999999],
+              [1416.52, 577.9399999999999],
+              [1416.52, 611.4],
+              [155.14, 611.4]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "2. 乙は、第三者が本件商標及び本件著作物に関する甲の権利を侵害していることを発見した場合、直",
+            "bbox": [
+              [154.12, 626.62],
+              [1491.56, 626.62],
+              [1491.56, 660.0799999999999],
+              [154.12, 661.08]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "ちに、その内容を甲に連絡し、甲乙協力してその侵害排除に努める。",
+            "bbox": [
+              [150.05999999999995, 677.32],
+              [1038.3, 677.32],
+              [1039.32, 709.76],
+              [150.05999999999995, 710.76]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "3. 乙は、本件商標及び本件著作物の使用に関し、乙の責めに帰すべき理由で第三者から甲に対しなさ",
+            "bbox": [
+              [154.12, 727.0],
+              [1488.52, 727.0],
+              [1488.52, 761.46],
+              [154.12, 761.46]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "れた損害賠償その他の一切の請求に対して、乙は、自己の費用と責任においてこれを解決する。",
+            "bbox": [
+              [149.05999999999995, 776.68],
+              [1392.1799999999998, 776.68],
+              [1392.1799999999998, 811.14],
+              [149.05999999999995, 811.14]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "第10条(解除)",
+            "bbox": [
+              [146.01999999999998, 878.06],
+              [366.04, 878.06],
+              [367.06, 912.5400000000001],
+              [146.01999999999998, 912.5400000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "乙が次の各号の何れかに該当する場合は、何らの催告を要せず直ちに本契約を解除することができる。",
+            "bbox": [
+              [149.05999999999995, 927.76],
+              [1474.32, 927.76],
+              [1474.32, 961.2199999999999],
+              [149.05999999999995, 960.2]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(1)第三者から差押、仮差押、競売、破産、会社整理、民事再生、特別清算又は会社更生手続の開始",
+            "bbox": [
+              [164.26, 977.44],
+              [1492.5800000000002, 977.44],
+              [1492.5800000000002, 1010.9],
+              [164.26, 1010.9]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "等の申立または公訴公課の滞納処分を受けたとき",
+            "bbox": [
+              [148.03999999999996, 1027.1200000000001],
+              [789.88, 1027.1200000000001],
+              [789.88, 1060.58],
+              [148.03999999999996, 1059.56]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(2)自ら破産宣告、会社整理、民事再生手続、特別清算又は会社更生手続の開始等の申立を行ったと",
+            "bbox": [
+              [165.27999999999997, 1076.8000000000002],
+              [1486.48, 1076.8000000000002],
+              [1486.48, 1111.28],
+              [165.27999999999997, 1111.28]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "き",
+            "bbox": [
+              [152.10000000000002, 1130.54],
+              [174.39999999999998, 1129.52],
+              [175.41999999999996, 1157.92],
+              [153.12, 1158.94]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(3) 金融機関から取引停止処分を受けたとき、自ら振出し、または引き受けた手形、小切手が不渡り",
+            "bbox": [
+              [165.27999999999997, 1176.1599999999999],
+              [1484.46, 1176.1599999999999],
+              [1484.46, 1210.64],
+              [165.27999999999997, 1210.64]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "処分になる等、支払いが不能な状態になったとき。",
+            "bbox": [
+              [148.03999999999996, 1225.86],
+              [802.06, 1226.86],
+              [802.06, 1261.3400000000001],
+              [148.03999999999996, 1260.32]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(4) 監督官庁より営業の取消、停止等の処分を受けたとき",
+            "bbox": [
+              [164.26, 1277.5600000000002],
+              [933.8800000000001, 1277.5600000000002],
+              [933.8800000000001, 1311.02],
+              [164.26, 1311.02]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "(5) その他契約を継続しがたい重大な事由が生じたとき",
+            "bbox": [
+              [165.27999999999997, 1327.24],
+              [903.4599999999999, 1327.24],
+              [903.4599999999999, 1360.6999999999998],
+              [165.27999999999997, 1359.68]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "第11条(改良著作物)",
+            "bbox": [
+              [148.03999999999996, 1410.3799999999999],
+              [452.24, 1410.3799999999999],
+              [452.24, 1442.84],
+              [148.03999999999996, 1442.84]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "本件著作物を使用することにより、新たに著作物が発生した場合にはその権利は甲が保有する。",
+            "bbox": [
+              [148.03999999999996, 1460.06],
+              [1386.1000000000001, 1460.06],
+              [1386.1000000000001, 1493.52],
+              [148.03999999999996, 1492.52]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "第12条(秘密保持)",
+            "bbox": [
+              [148.03999999999996, 1559.44],
+              [422.82, 1559.44],
+              [422.82, 1593.9],
+              [148.03999999999996, 1594.9199999999998]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "甲及び乙は、本契約実施に関して知り得た秘密を、その管理に必要な処置をし、本業務の遂行以外の目",
+            "bbox": [
+              [150.05999999999995, 1610.14],
+              [1489.52, 1610.14],
+              [1489.52, 1642.58],
+              [150.05999999999995, 1642.58]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "的に使用してはならない。",
+            "bbox": [
+              [149.05999999999995, 1659.82],
+              [480.61999999999995, 1661.8400000000001],
+              [480.61999999999995, 1693.28],
+              [149.05999999999995, 1691.2400000000002]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "本件著作物を使用することにより、新たに著作物が発生した場合にはその権利は甲が保有する。",
+            "bbox": [
+              [149.05999999999995, 1710.52],
+              [1389.14, 1710.52],
+              [1389.14, 1743.9800000000002],
+              [149.05999999999995, 1743.9800000000002]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "本契約に定めのない事項、または本契約の解釈等に疑義が生じたときは、民法その他の法令に甲乙は誠",
+            "bbox": [
+              [149.05999999999995, 1760.2],
+              [1491.56, 1760.2],
+              [1491.56, 1792.64],
+              [149.05999999999995, 1793.6599999999999]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "意を持って協議し、円満に解決を図るものとする。",
+            "bbox": [
+              [148.03999999999996, 1809.88],
+              [804.08, 1809.88],
+              [804.08, 1842.3200000000002],
+              [148.03999999999996, 1841.3]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "第13条(協議事項)",
+            "bbox": [
+              [147.01999999999998, 1910.26],
+              [423.84000000000003, 1909.2400000000002],
+              [423.84000000000003, 1942.7],
+              [147.01999999999998, 1943.72]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "本契約に定めのない事項、または本契約の解釈等に疑義が生じたときは、民法その他の法令に甲乙は誠",
+            "bbox": [
+              [149.05999999999995, 1959.9399999999998],
+              [1491.56, 1959.9399999999998],
+              [1491.56, 1993.4],
+              [149.05999999999995, 1993.4]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "意を持って協議し、円満に解決を図るものとする。",
+            "bbox": [
+              [147.01999999999998, 2008.6],
+              [804.08, 2009.62],
+              [804.08, 2043.0800000000002],
+              [147.01999999999998, 2042.06]
+            ],
+            "is_last_in_line": true
+          }
+        ],
+        "page_num": 2,
+        "width": 1654.0,
+        "height": 2339.0,
+        "start_char_num": 917,
+        "end_char_num": 1846
+      },
+      {
+        "items": [
+          {
+            "text": "本契約締結の証として、本書2通を作成し、甲乙それぞれ各1通を保管する。",
+            "bbox": [
+              [148.03999999999996, 277.81999999999994],
+              [1154.92, 277.81999999999994],
+              [1154.92, 310.26],
+              [148.03999999999996, 311.28]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "平成〇〇年〇〇月〇〇日",
+            "bbox": [
+              [148.03999999999996, 377.18000000000006],
+              [469.47999999999996, 377.18000000000006],
+              [469.47999999999996, 411.6600000000001],
+              [148.03999999999996, 411.6600000000001]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "甲 住所",
+            "bbox": [
+              [148.03999999999996, 510.02],
+              [267.68000000000006, 511.02],
+              [267.68000000000006, 544.48],
+              [148.03999999999996, 543.48]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "氏名",
+            "bbox": [
+              [204.81999999999994, 612.42],
+              [264.64, 611.4],
+              [265.6600000000001, 643.86],
+              [205.83999999999992, 643.86]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "印",
+            "bbox": [
+              [850.7199999999999, 664.12],
+              [880.12, 664.12],
+              [880.12, 692.52],
+              [851.74, 692.52]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "乙 住所",
+            "bbox": [
+              [150.05999999999995, 762.4799999999999],
+              [267.68000000000006, 762.4799999999999],
+              [267.68000000000006, 793.92],
+              [150.05999999999995, 792.9]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "氏名",
+            "bbox": [
+              [204.81999999999994, 810.14],
+              [266.68000000000006, 811.14],
+              [266.68000000000006, 844.6],
+              [204.81999999999994, 843.6]
+            ],
+            "is_last_in_line": true
+          },
+          {
+            "text": "印",
+            "bbox": [
+              [761.5, 862.86],
+              [791.92, 861.8399999999999],
+              [791.92, 890.24],
+              [762.5, 892.2599999999999]
+            ],
+            "is_last_in_line": true
+          }
+        ],
+        "page_num": 3,
+        "width": 1654.0,
+        "height": 2339.0,
+        "start_char_num": 1846,
+        "end_char_num": 1906
+      }
+    ]
+  },
+  "page_num": 3,
+  "is_contract": true,
+  "document_types": [
+    {
+      "document_type": "other_contract",
+      "score": 0.9988493159159794,
+      "threshold": 0.5
+    },
+    {
+      "document_type": "agreement_license",
+      "score": 0.998054415129791,
+      "threshold": 0.5
+    }
+  ],
+  "clauses": [
+    {
+      "hierarchy_level": "zero",
+      "source_text": "商標及び著作物使用許諾契約書\nA テクノロジー株式会社(以下、「甲」という。)と、B 商事株式会社(以下、「乙」という。)とは、\n甲が権利を有する「〇〇〇〇」に関わる商標と「〇〇〇〇」に関わる著作物とに関する使用許諾契約\n(以下「本契約」という)を、次のとおり締結する。\n",
+      "page_num": 1,
+      "start_line_num": 0,
+      "start_char_num": 0,
+      "end_char_num": 132,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": ["title", "foreword"],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "第1条(定義)\n",
+      "page_num": 1,
+      "start_line_num": 4,
+      "start_char_num": 132,
+      "end_char_num": 139,
+      "is_unreliable": false,
+      "heading": { "title": "定義", "clause_index": 0, "is_unreliable": false },
+      "identifier": {
+        "label_text": "第1条",
+        "label_type": "jou",
+        "clause_index": 0,
+        "number_text": "1",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "本契約における用語を次の各号のとおり定義する。\n",
+      "page_num": 1,
+      "start_line_num": 5,
+      "start_char_num": 139,
+      "end_char_num": 162,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "third_level",
+      "source_text": "(1)「本件商標」とは、甲が権利を有する「○○○○」に関わるすべての商標をいう。\n",
+      "page_num": 1,
+      "start_line_num": 6,
+      "start_char_num": 162,
+      "end_char_num": 202,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "third_level",
+      "source_text": "(2)「本件著作物」とは、甲が権利を有する「○○○○」に関わるすべての著作物をいう。\n",
+      "page_num": 1,
+      "start_line_num": 7,
+      "start_char_num": 202,
+      "end_char_num": 244,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "第2条(使用許諾)\n",
+      "page_num": 1,
+      "start_line_num": 8,
+      "start_char_num": 244,
+      "end_char_num": 253,
+      "is_unreliable": false,
+      "heading": {
+        "title": "使用許諾",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "第2条",
+        "label_type": "jou",
+        "clause_index": 0,
+        "number_text": "2",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "1. 甲は、乙に対し、本件商標及び本件著作物を甲が承認した商品に使用するために本契約に従って使\n用することを許諾するものとする。\n",
+      "page_num": 1,
+      "start_line_num": 9,
+      "start_char_num": 253,
+      "end_char_num": 316,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "2. 甲は、乙以外の第三者に本件商標及び本件著作物の使用を許諾してはならない。ただし、乙の承諾\nがある場合には、この限りでない。\n",
+      "page_num": 1,
+      "start_line_num": 11,
+      "start_char_num": 316,
+      "end_char_num": 379,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "第3条(競業避止義務)\n",
+      "page_num": 1,
+      "start_line_num": 13,
+      "start_char_num": 379,
+      "end_char_num": 390,
+      "is_unreliable": false,
+      "heading": {
+        "title": "競業避止義務",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "第3条",
+        "label_type": "jou",
+        "clause_index": 0,
+        "number_text": "3",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": [
+        {
+          "annotation_type": "non_compete",
+          "score": 0.957765648392026,
+          "threshold": 0.25
+        }
+      ]
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "1. 乙は、本契約の有効期間中、事前に甲の書面による承諾を得た場合を除き、甲と競業する第三者の\n保有する商標及び著作物を利用した商品を取り扱ってはならない。\n",
+      "page_num": 1,
+      "start_line_num": 14,
+      "start_char_num": 390,
+      "end_char_num": 467,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "2. 乙は、第三者の保有する商標及び著作物を利用した商品を取り扱おうとしている場合において、当\n該第三者が甲の事業と競業するか否かにつき疑義があるときは、甲に対し事前に通知し、甲の見解を求\nめなければならない。\n",
+      "page_num": 1,
+      "start_line_num": 16,
+      "start_char_num": 467,
+      "end_char_num": 570,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "第4条(許諾された使用の対価)\n",
+      "page_num": 1,
+      "start_line_num": 19,
+      "start_char_num": 570,
+      "end_char_num": 585,
+      "is_unreliable": false,
+      "heading": {
+        "title": "許諾された使用の対価",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "第4条",
+        "label_type": "jou",
+        "clause_index": 0,
+        "number_text": "4",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "甲が乙に許諾することに対して、乙は次の各号にしたがってその対価を支払う。\n",
+      "page_num": 1,
+      "start_line_num": 20,
+      "start_char_num": 585,
+      "end_char_num": 621,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "third_level",
+      "source_text": "(1)本件商標及び本件著作物を使用する商品の税抜き希望小売価格の〇〇%を製造数量に乗じた金額\nを対価とする。\n",
+      "page_num": 1,
+      "start_line_num": 21,
+      "start_char_num": 621,
+      "end_char_num": 674,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "third_level",
+      "source_text": "(2)前号の対価は、各年度の総額を各年度末から90日以内に、乙から甲に対して支払うものとする。\n",
+      "page_num": 1,
+      "start_line_num": 23,
+      "start_char_num": 674,
+      "end_char_num": 721,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "第5条(販売)\n",
+      "page_num": 1,
+      "start_line_num": 24,
+      "start_char_num": 721,
+      "end_char_num": 728,
+      "is_unreliable": false,
+      "heading": { "title": "販売", "clause_index": 0, "is_unreliable": false },
+      "identifier": {
+        "label_text": "第5条",
+        "label_type": "jou",
+        "clause_index": 0,
+        "number_text": "5",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "1. 本件商標及び本件著作物を使用した商品の販売において、乙は甲の定める指針に従わなければなら\nない。\n",
+      "page_num": 1,
+      "start_line_num": 25,
+      "start_char_num": 728,
+      "end_char_num": 778,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "2. 本件商標及び本件著作物を使用した商品の販売は、日本国内に限定する。\n",
+      "page_num": 1,
+      "start_line_num": 27,
+      "start_char_num": 778,
+      "end_char_num": 814,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "第7条(契約有効期間)\n",
+      "page_num": 1,
+      "start_line_num": 28,
+      "start_char_num": 814,
+      "end_char_num": 825,
+      "is_unreliable": false,
+      "heading": {
+        "title": "契約有効期間",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "第7条",
+        "label_type": "jou",
+        "clause_index": 0,
+        "number_text": "7",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "本契約は、平成〇〇年〇〇月〇〇日から平成〇〇年〇〇月〇〇日まで有効とする。但し期間満了の〇〇\nか月前までに甲乙いずれからも別段の意思表示ないときはさらに1年間有効とする。ただし、第8条又\nは第10条の規定により早期に終了した場合はこの限りではない。\n",
+      "page_num": 1,
+      "start_line_num": 29,
+      "start_char_num": 825,
+      "end_char_num": 947,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "第8条(使用の終了)\n",
+      "page_num": 2,
+      "start_line_num": 32,
+      "start_char_num": 947,
+      "end_char_num": 957,
+      "is_unreliable": false,
+      "heading": {
+        "title": "使用の終了",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "第8条",
+        "label_type": "jou",
+        "clause_index": 0,
+        "number_text": "8",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "乙は、本件商標及び本件著作物の使用を終了する場合、速やかにその旨を甲に書面で通知し、その時点\nをもって本契約は終了する。\n",
+      "page_num": 2,
+      "start_line_num": 33,
+      "start_char_num": 957,
+      "end_char_num": 1016,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "第9条(権利の保全)\n",
+      "page_num": 2,
+      "start_line_num": 35,
+      "start_char_num": 1016,
+      "end_char_num": 1026,
+      "is_unreliable": false,
+      "heading": {
+        "title": "権利の保全",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "第9条",
+        "label_type": "jou",
+        "clause_index": 0,
+        "number_text": "9",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "1. 乙は、甲が本件商標及び本件著作物の権利保全を行うに際し、誠意をもってこれに協力する。\n",
+      "page_num": 2,
+      "start_line_num": 36,
+      "start_char_num": 1026,
+      "end_char_num": 1071,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "2. 乙は、第三者が本件商標及び本件著作物に関する甲の権利を侵害していることを発見した場合、直\nちに、その内容を甲に連絡し、甲乙協力してその侵害排除に努める。\n",
+      "page_num": 2,
+      "start_line_num": 37,
+      "start_char_num": 1071,
+      "end_char_num": 1149,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "3. 乙は、本件商標及び本件著作物の使用に関し、乙の責めに帰すべき理由で第三者から甲に対しなさ\nれた損害賠償その他の一切の請求に対して、乙は、自己の費用と責任においてこれを解決する。\n",
+      "page_num": 2,
+      "start_line_num": 39,
+      "start_char_num": 1149,
+      "end_char_num": 1239,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "第10条(解除)\n",
+      "page_num": 2,
+      "start_line_num": 41,
+      "start_char_num": 1239,
+      "end_char_num": 1247,
+      "is_unreliable": false,
+      "heading": { "title": "解除", "clause_index": 0, "is_unreliable": false },
+      "identifier": {
+        "label_text": "第10条",
+        "label_type": "jou",
+        "clause_index": 0,
+        "number_text": "10",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "乙が次の各号の何れかに該当する場合は、何らの催告を要せず直ちに本契約を解除することができる。\n",
+      "page_num": 2,
+      "start_line_num": 42,
+      "start_char_num": 1247,
+      "end_char_num": 1293,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "third_level",
+      "source_text": "(1)第三者から差押、仮差押、競売、破産、会社整理、民事再生、特別清算又は会社更生手続の開始\n等の申立または公訴公課の滞納処分を受けたとき\n",
+      "page_num": 2,
+      "start_line_num": 43,
+      "start_char_num": 1293,
+      "end_char_num": 1361,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "third_level",
+      "source_text": "(2)自ら破産宣告、会社整理、民事再生手続、特別清算又は会社更生手続の開始等の申立を行ったと\nき\n",
+      "page_num": 2,
+      "start_line_num": 45,
+      "start_char_num": 1361,
+      "end_char_num": 1408,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "third_level",
+      "source_text": "(3) 金融機関から取引停止処分を受けたとき、自ら振出し、または引き受けた手形、小切手が不渡り\n処分になる等、支払いが不能な状態になったとき。\n",
+      "page_num": 2,
+      "start_line_num": 47,
+      "start_char_num": 1408,
+      "end_char_num": 1478,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "third_level",
+      "source_text": "(4) 監督官庁より営業の取消、停止等の処分を受けたとき\n",
+      "page_num": 2,
+      "start_line_num": 49,
+      "start_char_num": 1478,
+      "end_char_num": 1506,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "third_level",
+      "source_text": "(5) その他契約を継続しがたい重大な事由が生じたとき\n",
+      "page_num": 2,
+      "start_line_num": 50,
+      "start_char_num": 1506,
+      "end_char_num": 1533,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "第11条(改良著作物)\n",
+      "page_num": 2,
+      "start_line_num": 51,
+      "start_char_num": 1533,
+      "end_char_num": 1544,
+      "is_unreliable": false,
+      "heading": {
+        "title": "改良著作物",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "第11条",
+        "label_type": "jou",
+        "clause_index": 0,
+        "number_text": "11",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "本件著作物を使用することにより、新たに著作物が発生した場合にはその権利は甲が保有する。\n",
+      "page_num": 2,
+      "start_line_num": 52,
+      "start_char_num": 1544,
+      "end_char_num": 1587,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "第12条(秘密保持)\n",
+      "page_num": 2,
+      "start_line_num": 53,
+      "start_char_num": 1587,
+      "end_char_num": 1597,
+      "is_unreliable": false,
+      "heading": {
+        "title": "秘密保持",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "第12条",
+        "label_type": "jou",
+        "clause_index": 0,
+        "number_text": "12",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "甲及び乙は、本契約実施に関して知り得た秘密を、その管理に必要な処置をし、本業務の遂行以外の目\n的に使用してはならない。\n本件著作物を使用することにより、新たに著作物が発生した場合にはその権利は甲が保有する。\n本契約に定めのない事項、または本契約の解釈等に疑義が生じたときは、民法その他の法令に甲乙は誠\n意を持って協議し、円満に解決を図るものとする。\n",
+      "page_num": 2,
+      "start_line_num": 54,
+      "start_char_num": 1597,
+      "end_char_num": 1767,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "first_level",
+      "source_text": "第13条(協議事項)\n",
+      "page_num": 2,
+      "start_line_num": 59,
+      "start_char_num": 1767,
+      "end_char_num": 1777,
+      "is_unreliable": false,
+      "heading": {
+        "title": "協議事項",
+        "clause_index": 0,
+        "is_unreliable": false
+      },
+      "identifier": {
+        "label_text": "第13条",
+        "label_type": "jou",
+        "clause_index": 0,
+        "number_text": "13",
+        "number_type": "number"
+      },
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "second_level",
+      "source_text": "本契約に定めのない事項、または本契約の解釈等に疑義が生じたときは、民法その他の法令に甲乙は誠\n意を持って協議し、円満に解決を図るものとする。\n",
+      "page_num": 2,
+      "start_line_num": 60,
+      "start_char_num": 1777,
+      "end_char_num": 1846,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": [],
+      "clause_tags": []
+    },
+    {
+      "hierarchy_level": "zero",
+      "source_text": "本契約締結の証として、本書2通を作成し、甲乙それぞれ各1通を保管する。\n平成〇〇年〇〇月〇〇日\n甲 住所\n氏名\n印\n乙 住所\n氏名\n印\n",
+      "page_num": 3,
+      "start_line_num": 62,
+      "start_char_num": 1846,
+      "end_char_num": 1906,
+      "is_unreliable": false,
+      "heading": null,
+      "identifier": null,
+      "special_types": ["closing", "signature"],
+      "clause_tags": []
+    }
+  ],
+  "annotations": [
+    {
+      "annotation_type": "automatic_renewal",
+      "spans": [
+        {
+          "source_text": "本契約は、平成〇〇年〇〇月〇〇日から平成〇〇年〇〇月〇〇日まで有効とする。但し期間満了の〇〇か月前までに甲乙いずれからも別段の意思表示ないときはさらに1年間有効とする。ただし、第8条又は第10条の規定により早期に終了した場合はこの限りではない。",
+          "page_num": 1,
+          "start_char_num": null,
+          "end_char_num": null
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "annotation_type": "automatic_renewal_period",
+      "spans": [
+        {
+          "source_text": "1年間",
+          "page_num": 1,
+          "start_char_num": null,
+          "end_char_num": null
+        }
+      ],
+      "metadata": { "duration_number": 1, "duration_unit": "year" }
+    },
+    {
+      "annotation_type": "notice_requirement_to_refuse_renewal",
+      "spans": [
+        {
+          "source_text": "〇か月",
+          "page_num": 1,
+          "start_char_num": null,
+          "end_char_num": null
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "annotation_type": "execution_date",
+      "spans": [
+        {
+          "source_text": "平成〇〇年〇〇月〇〇日",
+          "page_num": 3,
+          "start_char_num": null,
+          "end_char_num": null
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "annotation_type": "contract_term",
+      "spans": [
+        {
+          "source_text": "平成〇〇年〇〇月〇〇日から平成〇〇年〇〇月〇〇日まで",
+          "page_num": 1,
+          "start_char_num": null,
+          "end_char_num": null
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "annotation_type": "effective_date",
+      "spans": [
+        {
+          "source_text": "平成〇〇年〇〇月〇〇日",
+          "page_num": 3,
+          "start_char_num": null,
+          "end_char_num": null
+        }
+      ],
+      "metadata": {}
+    },
+    {
+      "annotation_type": "party",
+      "spans": [
+        {
+          "source_text": "テクノロジー株式会社",
+          "page_num": 1,
+          "start_char_num": null,
+          "end_char_num": null
+        }
+      ],
+      "metadata": {
+        "party_type": "party",
+        "left_context": "作物使用許諾契約書A",
+        "right_context": "(以下、「甲」という"
+      }
+    },
+    {
+      "annotation_type": "party",
+      "spans": [
+        {
+          "source_text": "B 商事株式会社",
+          "page_num": 1,
+          "start_char_num": null,
+          "end_char_num": null
+        }
+      ],
+      "metadata": {
+        "party_type": "party",
+        "left_context": "「甲」という。)と、",
+        "right_context": "(以下、「乙」という"
+      }
+    }
+  ],
+  "word_comment_threads": []
+}

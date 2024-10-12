@@ -1,9 +1,12 @@
 import { diff } from "./diff"
 import { getRootPath } from "@/src/script/lib"
 
+const rootDir = getRootPath()
+const dir = "8.doc-diff"
+
 const diffResult = await diff({
-  basePath: getRootPath() + "fixtures/1.no-diff/docx-analyzed.json",
-  targetPath: getRootPath() + "fixtures/1.no-diff/pdf-analyzed.json",
-  outPath: getRootPath() + "fixtures/1.no-diff/diff.ts",
+  basePath: `${rootDir}fixtures/${dir}/doc-analyzed.json`,
+  targetPath: `${rootDir}fixtures/${dir}/diff-analyzed.json`,
+  outPath: `${rootDir}fixtures/${dir}/diff.ts`,
 })
 console.log(diffResult)
