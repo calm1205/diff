@@ -1,5 +1,5 @@
 <script setup>
-import RenderDiffLines from "@/components/renderDiffLines/RenderDiffLines.vue"
+import RenderDiffLines from "@/src/components/renderDiffLines/RenderDiffLines.vue"
 </script>
 
 <template>

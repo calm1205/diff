@@ -5,7 +5,10 @@ import { execGitDiff } from "./execGitDiff"
 /**
  * 2つの文字列の差分を取得
  */
-export const diffString = async (baseString: string, targetString: string) => {
+export const getStringDiff = async (
+  baseString: string,
+  targetString: string,
+) => {
   const tmpBaseFilePath = getRootPath() + "baseFile.txt"
   const tmpTargetFilePath = getRootPath() + "targetFile.txt"
 

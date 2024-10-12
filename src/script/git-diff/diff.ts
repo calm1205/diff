@@ -1,6 +1,6 @@
-import { writeFileSync } from "node:fs"
 import { getContentFromJson } from "./getContentFromJson"
-import { diffString } from "./diffString"
+import { getStringDiff } from "./getStringDiff"
+import { outputStringFile } from "./outputStringFile"
 
 interface DiffArgs {
   basePath: string
@@ -9,6 +9,9 @@ interface DiffArgs {
 }
 type Diff = (args: DiffArgs) => Promise<string[]>
 
+/**
+ * analyzed.jsonファイルの差分を取得し、diff.tsファイルとして出力します。
+ */
 export const diff: Diff = async ({ basePath, targetPath, outPath }) => {
   const baseFile = getContentFromJson(basePath)
   const targetFile = getContentFromJson(targetPath)
@@ -17,10 +20,10 @@ export const diff: Diff = async ({ basePath, targetPath, outPath }) => {
 
   const diffs = []
   for (let i = 0; i < pageLength; i++) {
-    diffs.push(await diffString(baseFile[i], targetFile[i]))
+    diffs.push(await getStringDiff(baseFile[i], targetFile[i]))
   }
+  const diffString = diffs.join("")
 
-  writeFileSync(outPath, diffs.join(""))
-
+  outputStringFile(outPath, diffString)
   return diffs
 }

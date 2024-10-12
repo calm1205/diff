@@ -1,5 +1,5 @@
-import { fileURLToPath } from "url"
-import { dirname, join } from "path"
+import { fileURLToPath } from "node:url"
+import { dirname, join } from "node:path"
 
 /**
  * 実行したファイルの絶対パスを取得
