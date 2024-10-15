@@ -1,12 +1,13 @@
-import { diff } from "./diff"
 import { getRootPath } from "@/src/script/lib"
+import { diffByPage } from "./diffByPage"
+import { diffFullPage } from "./diffFullPage"
 
 const rootDir = getRootPath()
-const dir = "8.doc-diff"
+// const dir = "5.100-page-diff"
+const dir = "6.large-diff"
+const basePath = `${rootDir}fixtures/${dir}/docx-analyzed.json`
+const targetPath = `${rootDir}fixtures/${dir}/diff-analyzed.json`
+const outPath = `${rootDir}fixtures/${dir}/diff.ts`
 
-const diffResult = await diff({
-  basePath: `${rootDir}fixtures/${dir}/doc-analyzed.json`,
-  targetPath: `${rootDir}fixtures/${dir}/diff-analyzed.json`,
-  outPath: `${rootDir}fixtures/${dir}/diff.ts`,
-})
-console.log(diffResult)
+// await diffByPage({ basePath, targetPath, outPath })
+await diffFullPage({ basePath, targetPath, outPath })

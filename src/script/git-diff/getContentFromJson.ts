@@ -11,6 +11,10 @@ interface AnalyzedJson {
     }[]
   }
 }
+interface GetContentFromJsonArgs {
+  analyzedJsonPath: string
+  isFullPage?: boolean
+}
 
 /**
  * MNTSQ-algoの解析結果のjsonファイル（<tenant>-<document_id>-analyzed.json）からドキュメントの本文を取得します。
@@ -18,13 +22,16 @@ interface AnalyzedJson {
  *
  * @param analyzedJsonPath 解析結果のjsonファイルへのrootPathからの相対パス e.g. "src/fixtures/pdf-analyzed.json"
  */
-export const getContentFromJson = (analyzedJsonPath: string): string[] => {
+export const getContentFromJson = ({
+  analyzedJsonPath,
+  isFullPage = false,
+}: GetContentFromJsonArgs): string[] => {
   const file = readFileSync(analyzedJsonPath, "utf8")
   const json = JSON.parse(file) as AnalyzedJson
 
   const pages = parseJson(json)
 
-  return pages
+  return isFullPage ? [pages.join("")] : pages
 }
 
 /**
