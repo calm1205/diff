@@ -19,11 +19,14 @@ export const diffFullPage: DiffFullPage = async ({
   outPath,
 }) => {
   const isFullPage = true
-  const baseFile = getAnalyzedText({ jsonPath: basePath, isFullPage })
-  const targetFile = getAnalyzedText({ jsonPath: targetPath, isFullPage })
+  const baseFile = getAnalyzedText({ jsonPath: basePath, isFullPage }) as string
+  const targetFile = getAnalyzedText({
+    jsonPath: targetPath,
+    isFullPage,
+  }) as string
 
   const startTime = performance.now()
-  const diffs = [await getStringDiff(baseFile[0], targetFile[0])]
+  const diffs = [await getStringDiff(baseFile, targetFile)]
   console.log("diffFullPage: ", performance.now() - startTime, "ms")
   const diffString = diffs.join("")
 
