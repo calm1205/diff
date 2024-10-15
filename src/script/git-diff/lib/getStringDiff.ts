@@ -1,5 +1,5 @@
 import { unlinkSync, writeFileSync } from "node:fs"
-import { getRootPath } from "../lib"
+import { getRootPath } from "../../lib"
 import { execGitDiff } from "./execGitDiff"
 
 /**
@@ -27,5 +27,6 @@ export const getStringDiff = async (
   return trimmedDiff || baseString
 }
 
+/** git diffの先頭のhunkを削除 */
 const removeGitDiffHeader = (diff: string) =>
   diff.replace(/^diff[\s\S]+\n@@.*\n/, "")

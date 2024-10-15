@@ -1,6 +1,6 @@
-import { getContentFromJson } from "./getContentFromJson"
-import { getStringDiff } from "./getStringDiff"
-import { outputStringFile } from "./outputStringFile"
+import { getAnalyzedText } from "./lib/getAnalyzedText"
+import { getStringDiff } from "./lib/getStringDiff"
+import { outputStringFile } from "./lib/outputStringFile"
 
 interface DiffFullPageArgs {
   basePath: string
@@ -9,20 +9,18 @@ interface DiffFullPageArgs {
 }
 type DiffFullPage = (args: DiffFullPageArgs) => Promise<string[]>
 
+/**
+ * ２つのanalyzed.jsonファイルからテキストを抽出
+ * 差分を一括取得し、diff.tsファイルとして出力
+ */
 export const diffFullPage: DiffFullPage = async ({
   basePath,
   targetPath,
   outPath,
 }) => {
   const isFullPage = true
-  const baseFile = getContentFromJson({
-    analyzedJsonPath: basePath,
-    isFullPage,
-  })
-  const targetFile = getContentFromJson({
-    analyzedJsonPath: targetPath,
-    isFullPage,
-  })
+  const baseFile = getAnalyzedText({ jsonPath: basePath, isFullPage })
+  const targetFile = getAnalyzedText({ jsonPath: targetPath, isFullPage })
 
   const startTime = performance.now()
   const diffs = [await getStringDiff(baseFile[0], targetFile[0])]

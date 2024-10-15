@@ -1,6 +1,6 @@
-import { getContentFromJson } from "./getContentFromJson"
-import { getStringDiff } from "./getStringDiff"
-import { outputStringFile } from "./outputStringFile"
+import { getAnalyzedText } from "./lib/getAnalyzedText"
+import { getStringDiff } from "./lib/getStringDiff"
+import { outputStringFile } from "./lib/outputStringFile"
 
 interface DiffByPageArgs {
   basePath: string
@@ -10,15 +10,16 @@ interface DiffByPageArgs {
 type DiffByPage = (args: DiffByPageArgs) => Promise<string[]>
 
 /**
- * analyzed.jsonファイルの差分を取得し、diff.tsファイルとして出力します。
+ * ２つのanalyzed.jsonファイルからテキストを抽出
+ * 差分をpage毎に取得し、diff.tsファイルとして出力
  */
 export const diffByPage: DiffByPage = async ({
   basePath,
   targetPath,
   outPath,
 }) => {
-  const baseFile = getContentFromJson({ analyzedJsonPath: basePath })
-  const targetFile = getContentFromJson({ analyzedJsonPath: targetPath })
+  const baseFile = getAnalyzedText({ jsonPath: basePath })
+  const targetFile = getAnalyzedText({ jsonPath: targetPath })
 
   const pageLength = Math.max(baseFile.length, targetFile.length)
 
