@@ -7,16 +7,16 @@
 順序は以下の通りです。
 
 1. `fixtures/`に解析後のjsonファイルを手動で配置
-2. `npm run diff`を実行
-   a. 解析後のjsonファイルから本文を抽出
-   b. `git diff`を実行し差分を取得
+2. `npm run diff`を実行<br/>
+   a. 解析後のjsonファイルから本文を抽出<br/>
+   b. `git diff`を実行し差分を取得<br/>
    c. 差分を`fixtures/xxx/diff.ts`として出力
-3. `npm run dev`を実行
-   a. `script/parse-word-diff`内で`diff.ts`を読み込みFE表示用にparseします。
+3. `npm run dev`を実行<br/>
+   a. `script/parse-word-diff`内で`diff.ts`を読み込みFE表示用にparseします。<br/>
    b. parseした内容をハイライトして表示します。
 
-内部で走る`git diff`は以下です。
-空白を無視して単語単位で差分を取得します。
+内部で走る`git diff`は以下です。<br/>
+空白を無視して単語単位で差分を取得します。<br/>
 `--unified=9999`は差分と本文を全て表示するためにhunkサイズを大きくしています。
 
 ```
@@ -35,14 +35,15 @@ FEで読み込むdiffファイルは`src/script/parse-word-diff/index.ts`で選�
 
 <br/>
 
-差分比較
-どの2ファイルに対して差分取得するのかは`src/script/git-diff/exec.ts`で選択してください。
+差分比較の実行
 
 ```bash
 $ docker compose up -d git-diff
 $ docker compose exec git-diff bash
 $ npm run diff
 ```
+
+どの2ファイルに対して差分取得するのかは`src/script/git-diff/exec.ts`で選択してください。
 
 <br/><br/>
 
