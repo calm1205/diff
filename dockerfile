@@ -1,6 +1,9 @@
 FROM node:18 AS development
 
+RUN apt-get update && apt-get install -y git
 WORKDIR /app
+
+RUN git init
 
 COPY package*.json ./
 RUN npm ci
