@@ -15,7 +15,7 @@ const dir = "6.large-diff"
 // const dir = "9.eng-diff"
 
 const basePath = `${rootDir}fixtures/${dir}/docx-analyzed.json`
-const targetPath = `${rootDir}fixtures/${dir}/diff2-analyzed.json`
+const targetPath = `${rootDir}fixtures/${dir}/diff-analyzed.json`
 const outPath = `${rootDir}fixtures/${dir}/diff.ts`
 
 /**
