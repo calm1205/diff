@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { splitLinesGroup } from "@/src/script/unified-word-diff"
+import { splitLinesGroup } from "@/src/script/parse-word-diff"
 import { replaceAddition } from "./replaceAddition"
 import { replaceDeletion } from "./replaceDeletion"
 

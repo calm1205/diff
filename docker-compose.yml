@@ -1,0 +1,11 @@
+services:
+  git-diff:
+    image: git-diff-node
+    container_name: git-diff-node
+    build: .
+    ports:
+      - 9999:9999
+    volumes:
+      - ./src:/app/src
+      - ./fixtures:/app/fixtures
+    command: npm run dev
