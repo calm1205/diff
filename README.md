@@ -7,21 +7,22 @@
 順序は以下の通りです。
 
 1. `fixtures/`に解析後のjsonファイルを手動で配置
-2. `npm run diff`を実行<br/>
-   a. 解析後のjsonファイルから本文を抽出<br/>
-   b. `git diff`を実行し差分を取得<br/>
-   c. 差分を`fixtures/xxx/diff.ts`として出力
-3. `npm run dev`を実行<br/>
-   a. `script/parse-word-diff`内で`diff.ts`を読み込みFE表示用にparseします。<br/>
-   b. parseした内容をハイライトして表示します。
+2. `npm run diff`を実行
+   - 解析後のjsonファイルから本文を抽出
+   - `git diff`を実行し差分を取得
+   - 差分を`fixtures/xxx/diff.ts`として出力
+3. `npm run dev`を実行
+   - `script/parse-word-diff`内で`diff.ts`を読み込みFE表示用にparseします。
+   - parseした内容をハイライトして表示します。
 
-内部で走る`git diff`は以下です。<br/>
-空白を無視して単語単位で差分を取得します。<br/>
-`--unified=9999`は差分と本文を全て表示するためにhunkサイズを大きくしています。
+内部で走る`git diff`は以下です。
 
 ```
 $ git diff --word-diff-regex='[^[:space:]]' --unified=9999
 ```
+
+空白を無視して単語単位で差分を取得します。<br/>
+`--unified=9999`は差分と本文を全て表示するためにhunkサイズを大きくしています。
 
 <br/><br/>
 
