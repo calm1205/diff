@@ -45,6 +45,8 @@ $ npm run diff
 ```
 
 どの2ファイルに対して差分取得するのかは`src/script/git-diff/exec.ts`で選択してください。
+ファイルによっては文字化けする可能性がある。
+その場合はホストマシン上にnode.jsをインストールし、`npm run diff`を実行してください。
 
 <br/><br/>
 
